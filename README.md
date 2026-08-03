@@ -35,3 +35,10 @@ Planned out my 65% keyboard using excalidraw. Decided to add a rotary encoder in
 (1 hour) Started doing the route tracing, and finished the front copper side. A lot more difficult than I imagined, because my original Pico connections were not very optimized for this, but after rearranging everything I figured out a way to get them placed neatly. Still only finished the front side, as I had to restart once realizing midway through that it wouldn't work, but now I think it is ok. My front copper currently has the rotary encoder connections and the row connections. And I plan on placing the column routes on the back side of the PCB. 
 
 ![Finished front (red) copper route tracing on keyboard PCB](.\journal-pics\image-6.png)
+
+(1 hour) Finished all the front and back route tracing, with the rotary encoder as well. Started to become pretty intuitive and I started to understand more of how it was connecting back to the schematic. While finishing all the route tracing I also had to rewire some pins and change the board size and Pico positioning to accomodate all the routes, but luckily I managed to get it working. After that, I filled in the front and back copper with ground fill, and now I am at "Unrouted: 0"! Hopefully this means that I am almost done. 
+
+Completed route traces screenshot:
+![All route traces completed except for ground which I have hidden in this picture](.\journal-pics\image-7.png)
+Completed route traces + ground fill:
+![Front copper PCB with red ground fill with all route traces completed](.\journal-pics\image-8.png)

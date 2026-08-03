@@ -2423,6 +2423,12 @@
 		(uuid "6eab73d0-3582-4684-95f1-5a2a858a402e")
 	)
 	(junction
+		(at 59.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6efb5ccd-eba2-4c96-a457-2256dda1f6c4")
+	)
+	(junction
 		(at 35.56 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3710,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 91.7851) (xy 59.69 94.3251)
+			(xy 59.69 91.7851) (xy 59.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4800,7 +4806,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 101.6) (xy 73.66 101.6)
+			(xy 45.72 101.6) (xy 59.69 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4857,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "d2ef09a6-8437-438c-b640-0a01b2a81452")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4988dbe-df25-4523-a0c4-682428f54d8e")
 	)
 	(wire
 		(pts
@@ -5920,7 +5936,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 59.69 98.1351 90)
+		(at 59.69 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5930,7 +5946,7 @@
 		(dnp no)
 		(uuid "02b9f0bc-31e1-4c77-9448-00e0e68833f7")
 		(property "Reference" "D48"
-			(at 62.23 96.865 90)
+			(at 62.23 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5941,7 +5957,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 62.23 99.405 90)
+			(at 62.23 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5952,7 +5968,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 59.69 98.1351 0)
+			(at 59.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,7 +5979,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 59.69 98.1351 0)
+			(at 59.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5974,7 +5990,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 59.69 98.1351 0)
+			(at 59.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +6001,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 59.69 98.1351 0)
+			(at 59.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5996,7 +6012,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 98.1351 0)
+			(at 59.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
