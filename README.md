@@ -18,3 +18,7 @@ Planned out my 65% keyboard using excalidraw. Decided to add a rotary encoder in
 
 (0.5 hours) Assigned footprints to my components. Took a while because I had to find out what kind of footprint the rotary encoder uses, which I learned was a RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm footprint in KiCad. Also had to configure each stabilizer footprint to the correct size, but there were some that were a little smaller: 2.25u instead of my 2.5u so I will see how that works out later. 
 ![Screenshot of my footprint assignment popup](image-1.png)
+
+(1.5 hours) Started to do the PCB from the schematic. Very very difficult, had to restart several times. I can't seem to get the grid working because of the nonortholinear layout, it doesn't cooperate very well, and I have to manually set every single switch. Anyways, I just finished debugging some minor math error, and I reconfigured the layout becasue 2.5u stabilizers aren't allowed apparently, so I just made the whole keyboard 0.25u wider. Then, I moved everything and readjusted the whole keyboard so now I have finished the top two rows of the keyboard, but only the switches. Hopefully, progress will ramp up soon, because this is getting very tedious.
+
+![Two rows of PCB switches done](image-3.png)
