@@ -5929,7 +5929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02b9f0bc-31e1-4c77-9448-00e0e68833f7")
-		(property "Reference" "D59"
+		(property "Reference" "D48"
 			(at 62.23 96.865 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,7 +6015,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D59")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -6216,7 +6216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0540a4db-ea01-4b09-9016-9d929d696bd6")
-		(property "Reference" "D57"
+		(property "Reference" "D58"
 			(at 229.87 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6302,7 +6302,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D57")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -8333,7 +8333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b91169-8def-43b5-85b3-b989777b1661")
-		(property "Reference" "D55"
+		(property "Reference" "D56"
 			(at 173.99 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8419,7 +8419,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D55")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -9719,7 +9719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c87deb2-a404-4823-9b02-a8ca03e227d8")
-		(property "Reference" "D56"
+		(property "Reference" "D57"
 			(at 201.93 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9805,7 +9805,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D56")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5129b7b1-e390-46a9-b0aa-241576c84b29")
-		(property "Reference" "D52"
+		(property "Reference" "D53"
 			(at 132.08 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +10419,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D52")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -10963,7 +10963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "597807d3-c166-40b0-a369-6f3353955ec9")
-		(property "Reference" "D58"
+		(property "Reference" "D59"
 			(at 243.84 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11049,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D58")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -11352,7 +11352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eeda98f-8729-410a-8c0b-39645da320bb")
-		(property "Reference" "D51"
+		(property "Reference" "D52"
 			(at 118.11 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11438,7 +11438,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D51")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -11822,7 +11822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6428c569-4e38-4eed-b8f4-0690f0b6c8d5")
-		(property "Reference" "D49"
+		(property "Reference" "D50"
 			(at 90.17 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11908,7 +11908,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D49")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -11925,7 +11925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6659b54c-b739-4e5d-a53d-cf5f0eef405c")
-		(property "Reference" "D53"
+		(property "Reference" "D54"
 			(at 146.05 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12011,7 +12011,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D53")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -12286,7 +12286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e0f6503-a101-44c5-8192-c501e474fdd2")
-		(property "Reference" "D54"
+		(property "Reference" "D55"
 			(at 160.02 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12372,7 +12372,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -18300,7 +18300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8f66947-d4e6-4c29-89fb-3a2c72045ffd")
-		(property "Reference" "D50"
+		(property "Reference" "D51"
 			(at 104.14 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18386,7 +18386,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D50")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -18858,7 +18858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f53efe89-6890-4870-8bfe-4ebf027d3b2a")
-		(property "Reference" "D48"
+		(property "Reference" "D49"
 			(at 76.2 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18944,7 +18944,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "D48")
+					(reference "D49")
 					(unit 1)
 				)
 			)
