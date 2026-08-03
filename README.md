@@ -45,3 +45,10 @@ Completed route traces + ground fill:
 
 (0.75 hours) Shifted the Pico up a little bit to allow more clearance from the keyset. Completed the DRC testing and fixed everything that needs fixing. Also tested with the 3d model but I was too lazy to put them all down so I just tested one and it seemed fine. Now there should be nothing wrong with any of the connections, only some couple minor warnings, like the silkscreen being clipped off of the board edge. Next step will be exporting the gerber files, which I have done. The compressed zip folder now includes all the gerber and drill files. 
 
+(1 hour) Started working on the case, pretty lost in the sauce. I wanted to make a sandwich mount case, so I decided to extrude the bottom plate and start working on the bottom part of the case. And then when I finished that I was wondering where to put the plate, and then I realized that my switches in my imported step file where not on the right height, which meant I had to fix that. So I readjusted the switch height in the footprint editor. 
+
+Point where I realized that the switches were wrong (when the switches were so low and there was no place to put a plate):
+![Screenshot of Onshape page with case part studio and pcb assembly](.\journal-pics\image-9.png)
+
+Fixed 3d model that I can use later for the case making:
+![Fixed 3d model of pcb with switches repositioned](.\journal-pics\image-10.png)
