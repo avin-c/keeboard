@@ -42,3 +42,6 @@ Completed route traces screenshot:
 ![All route traces completed except for ground which I have hidden in this picture](.\journal-pics\image-7.png)
 Completed route traces + ground fill:
 ![Front copper PCB with red ground fill with all route traces completed](.\journal-pics\image-8.png)
+
+(0.75 hours) Shifted the Pico up a little bit to allow more clearance from the keyset. Completed the DRC testing and fixed everything that needs fixing. Also tested with the 3d model but I was too lazy to put them all down so I just tested one and it seemed fine. Now there should be nothing wrong with any of the connections, only some couple minor warnings, like the silkscreen being clipped off of the board edge. Next step will be exporting the gerber files, which I have done. The compressed zip folder now includes all the gerber and drill files. 
+
