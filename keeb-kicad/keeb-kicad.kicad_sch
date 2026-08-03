@@ -2123,18 +2123,6 @@
 		(uuid "04d19647-4c77-4362-a5d3-cfc68053c8c4")
 	)
 	(junction
-		(at 36.83 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "068db08f-9963-47b8-8ffc-09745401ea58")
-	)
-	(junction
-		(at 36.83 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "070a92c3-c8e2-4b51-82f4-c4ccaa78a331")
-	)
-	(junction
 		(at 77.47 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2447,12 +2435,6 @@
 		(uuid "7251f00a-5d92-45aa-a663-67f0b0661775")
 	)
 	(junction
-		(at 52.07 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7897d19c-4638-4035-9a36-906c31e08033")
-	)
-	(junction
 		(at 175.26 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2463,12 +2445,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81b6bd6d-31b5-4873-9ada-530a0aec2dca")
-	)
-	(junction
-		(at 36.83 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81dc832f-b2d9-476c-b0b9-455b7c01fb79")
 	)
 	(junction
 		(at 49.53 50.8)
@@ -2864,6 +2840,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 149.86) (xy 25.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019b6f41-939f-4d31-89b3-ff333495ee84")
+	)
+	(wire
+		(pts
 			(xy 213.36 60.96) (xy 227.33 60.96)
 		)
 		(stroke
@@ -2911,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "086ec8e2-533c-4ceb-acd7-8dd0cdd0eaa5")
+	)
+	(wire
+		(pts
+			(xy 35.56 148.59) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e776e0-ef5b-4c94-984d-cd1b0e5bd70f")
 	)
 	(wire
 		(pts
@@ -3064,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 152.4) (xy 52.07 152.4)
+			(xy 57.15 151.13) (xy 52.07 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 152.4) (xy 36.83 152.4)
+			(xy 34.29 151.13) (xy 36.83 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 149.86) (xy 36.83 149.86)
+			(xy 35.56 148.59) (xy 36.83 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3434,6 +3430,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 152.4) (xy 55.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af8d11f-bc58-4a5e-8608-b917cb48faa4")
+	)
+	(wire
+		(pts
 			(xy 101.6 40.64) (xy 115.57 40.64)
 		)
 		(stroke
@@ -3461,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "3d4377df-15e5-4ef8-bc78-7ff79db1f4db")
+	)
+	(wire
+		(pts
+			(xy 34.29 152.4) (xy 29.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1aa2b2-1dab-49b9-ad19-9bc25ee832d6")
 	)
 	(wire
 		(pts
@@ -3571,6 +3587,16 @@
 			(type default)
 		)
 		(uuid "4a2db6c1-82e7-4a03-beff-9193a747a2a1")
+	)
+	(wire
+		(pts
+			(xy 52.07 146.05) (xy 52.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4457f8-1ea0-40e3-b53b-16462a529e2a")
 	)
 	(wire
 		(pts
@@ -4534,6 +4560,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 146.05) (xy 33.02 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f86aa4-8efa-40e0-b3c3-1c61ce9542d2")
+	)
+	(wire
+		(pts
 			(xy 129.54 50.8) (xy 129.54 53.34)
 		)
 		(stroke
@@ -4594,7 +4630,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 147.32) (xy 36.83 147.32)
+			(xy 33.02 146.05) (xy 36.83 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4844,6 +4880,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 151.13) (xy 34.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62debb1-1372-4a8c-a875-5029b2ef35d2")
+	)
+	(wire
+		(pts
 			(xy 77.47 30.48) (xy 77.47 50.8)
 		)
 		(stroke
@@ -4914,6 +4960,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 151.13) (xy 57.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17fbe6e-794c-4d7c-a2ea-f5273e5b7776")
+	)
+	(wire
+		(pts
 			(xy 129.54 71.12) (xy 129.54 73.66)
 		)
 		(stroke
@@ -4941,6 +4997,16 @@
 			(type default)
 		)
 		(uuid "e4ab9663-1c01-4da0-b326-b77989e8368e")
+	)
+	(wire
+		(pts
+			(xy 33.02 147.32) (xy 29.21 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c03ce2-befc-4c76-9f86-f8b9100ce470")
 	)
 	(wire
 		(pts
@@ -5704,7 +5770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a65cd9-f61e-4a7d-9884-93cc2ff131d2")
-		(property "Reference" "SW54"
+		(property "Reference" "SW55"
 			(at 152.4 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,7 +5832,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW54")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -6334,7 +6400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080a852e-e811-4b77-b9b1-8851b0403cd7")
-		(property "Reference" "SW58"
+		(property "Reference" "SW59"
 			(at 236.22 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6462,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW58")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -9109,8 +9175,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35f48af6-ab31-4286-b9d1-22b1e196ac36")
-		(property "Reference" "SW59"
-			(at 54.61 84.1651 0)
+		(property "Reference" "SW48"
+			(at 54.61 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9120,7 +9186,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 54.61 86.7051 0)
+			(at 54.61 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9171,7 +9237,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW59")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.75u"
 			(at 269.24 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +10517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534ac909-eda8-4bec-8c27-481bc432b783")
-		(property "Reference" "SW50"
+		(property "Reference" "SW51"
 			(at 96.52 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +10579,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW50")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -10611,7 +10677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f583dd-c713-44c2-8e29-f08d5223cf85")
-		(property "Reference" "SW51"
+		(property "Reference" "SW52"
 			(at 110.49 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10739,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW51")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -11482,95 +11548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 44.45 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc18cda-319b-4fbd-84d4-3b02f892ac2e")
-		(property "Reference" "SW71"
-			(at 44.45 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 44.45 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 40.64 145.796 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 143.256 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 44.45 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "5544fb8a-33a9-4425-aab3-926f8e952a0c")
-		)
-		(pin "B"
-			(uuid "6a28121a-7159-4f25-994d-8658849a38cd")
-		)
-		(pin "S2"
-			(uuid "7cf5e70f-bda1-49f0-afb2-ac0f964b6785")
-		)
-		(pin "C"
-			(uuid "10ee660a-4b33-47d1-a127-60fae76258f6")
-		)
-		(pin "S1"
-			(uuid "117f1588-1c5f-4d9c-b425-acdb12f871ab")
-		)
-		(instances
-			(project "keeb-kicad"
-				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 54.61 50.8 0)
 		(unit 1)
@@ -12256,7 +12233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_3u"
 			(at 269.24 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12493,7 +12470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721814a6-0a0a-415c-ae6d-7a19e1e7c65b")
-		(property "Reference" "SW52"
+		(property "Reference" "SW53"
 			(at 124.46 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,7 +12532,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW52")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -12757,7 +12734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7469c722-339b-41c4-b148-4bea4cd925d6")
-		(property "Reference" "SW48"
+		(property "Reference" "SW49"
 			(at 68.58 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +12796,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW48")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -15079,7 +15056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
 			(at 269.24 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15794,7 +15771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa6a05f5-a0b3-481a-aa13-36e7ea4b5b53")
-		(property "Reference" "SW53"
+		(property "Reference" "SW54"
 			(at 138.43 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15856,7 +15833,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW53")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -16217,7 +16194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9bed20a-54c0-4d2f-8c2f-212b9cd33f4a")
-		(property "Reference" "SW57"
+		(property "Reference" "SW58"
 			(at 222.25 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16279,7 +16256,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW57")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -16297,7 +16274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6a89a1-02ee-4f0f-b2dc-e4922dbc8ea2")
-		(property "Reference" "SW56"
+		(property "Reference" "SW57"
 			(at 194.31 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16359,7 +16336,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW56")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -17777,7 +17754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d50d7958-2ceb-4e77-88b7-6dd0d50c6cde")
-		(property "Reference" "SW55"
+		(property "Reference" "SW56"
 			(at 166.37 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17839,7 +17816,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW55")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -18417,7 +18394,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 44.45 149.86 0)
+		(at 44.45 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18427,8 +18404,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea83be16-464c-4e73-abb8-c682d26d2587")
-		(property "Reference" "SW72"
-			(at 44.45 139.7 0)
+		(property "Reference" "SW71"
+			(at 44.45 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18438,7 +18415,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 44.45 142.24 0)
+			(at 44.45 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18447,8 +18424,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 145.796 0)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 40.64 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18459,7 +18436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 143.256 0)
+			(at 44.45 141.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18470,7 +18447,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 44.45 149.86 0)
+			(at 44.45 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18498,7 +18475,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW72")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -19225,7 +19202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f83886d7-bb6a-4250-ae16-13aaa93f5226")
-		(property "Reference" "SW49"
+		(property "Reference" "SW50"
 			(at 82.55 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19287,7 +19264,7 @@
 		(instances
 			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
-					(reference "SW49")
+					(reference "SW50")
 					(unit 1)
 				)
 			)

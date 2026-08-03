@@ -10,15 +10,19 @@ Planned out my 65% keyboard using excalidraw. Decided to add a rotary encoder in
 
 (1 hour) Set up KiCad and installed [marbastlib](https://github.com/ebastler/marbastlib) library. Also created the below matrix for my keyboard to plan where my rows and columns will go, and where each switch will connect to. I ended up with a 16x5 matrix grid, which uses 21 pins and handles 80 keys of which my keyboard uses 70 of. 
 
-![Keyboard matrix of my keyboard with 16 columns and 5 rows. Each of the 70 switches is highlighted with a red dot](image.png)
+![Keyboard matrix of my keyboard with 16 columns and 5 rows. Each of the 70 switches is highlighted with a red dot](.\journal-pics\image.png)
 
 (1.5 hours) Designed schematic on KiCad, following my layout in the diagram above. Added the Pico, switches, diodes, stabilizers, and rotary encoder. Arranged each switch-diode set into a matrix following the layout of the matrix above. Then connected each row/column wire to the Pico using net labels. Also connected the Rotary Encoder to the Picousing net labels and GND symbols. Finally, annotated everything using the automatic annotation tool. Also checked that the connections were working with the highlight net label function and confirmed that everything was properly connected.
 
-![Screenshot of my KiCad window with my schematic finished with my switches and diodes in proper positions within the matrix and the matrix rows/columns connected to the Raspberry Pico. Also have the stabilizers off to the side for the footprint and the rotary encorder connected as well to the Pico](image-2.png)
+![Screenshot of my KiCad window with my schematic finished with my switches and diodes in proper positions within the matrix and the matrix rows/columns connected to the Raspberry Pico. Also have the stabilizers off to the side for the footprint and the rotary encorder connected as well to the Pico](.\journal-pics\image-2.png)
 
 (0.5 hours) Assigned footprints to my components. Took a while because I had to find out what kind of footprint the rotary encoder uses, which I learned was a RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm footprint in KiCad. Also had to configure each stabilizer footprint to the correct size, but there were some that were a little smaller: 2.25u instead of my 2.5u so I will see how that works out later. 
-![Screenshot of my footprint assignment popup](image-1.png)
+![Screenshot of my footprint assignment popup](.\journal-pics\image-1.png)
 
 (1.5 hours) Started to do the PCB from the schematic. Very very difficult, had to restart several times. I can't seem to get the grid working because of the nonortholinear layout, it doesn't cooperate very well, and I have to manually set every single switch. Anyways, I just finished debugging some minor math error, and I reconfigured the layout becasue 2.5u stabilizers aren't allowed apparently, so I just made the whole keyboard 0.25u wider. Then, I moved everything and readjusted the whole keyboard so now I have finished the top two rows of the keyboard, but only the switches. Hopefully, progress will ramp up soon, because this is getting very tedious.
 
-![Two rows of PCB switches done](image-3.png)
+![Two rows of PCB switches done](.\journal-pics\image-3.png)
+
+(1.25 hours) Finished up the rest of the keyboard switches, and had to make further resizing changes and just lots of adding and subtracting to get the proper locations of each of the switches. Maybe I should've done an ortholinear keyboard instead, haha. Anyways, now it is configured with an additional 0.25u in width as there are no 2.5u stabilizers in the library. So there are some keys with like an extra 0.25u like the right control button, enter key etc..Anyways, this pcb assembly really tested my patience and was much more difficult than I thought it would be. The initial setup was pretty overwhelmed with all the lines connected everywhere but I think I'm slowly getting the hang of it. 
+
+![Screenshot of completed keyboard switches located. Lots of lines and pcb stuff. ](.\journal-pics\image-4.png)
