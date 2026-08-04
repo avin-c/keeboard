@@ -51,4 +51,10 @@ Fixed 3d model that I can use later for the case making:
 ![Fixed 3d model of pcb with switches repositioned](.\journal-pics\image-10.png)
 
 (1 hour) Finalized the 3d STEP model of the pcb board. Continued working on the bottom part of the case and decided that I would have a little inset for the plate instead of just being pure sandwich, so that there aren't as many layers visible on the side profile. So the next step is to create the plate, which I am still not sure exactly how to do. Anyways thats all for today. 
-![Bottom tray case in onshape](image.png)
+
+![Bottom tray case in onshape](.\journal-pics\image-11.png)
+
+### Aug 4
+(1 hour | [Lapse link](https://lapse.hackclub.com/timelapse/3pcBLhghpw3_)) Continued working on the case for the keyboard, mainly focusing on the plate that seats the switches. Made a cutouts for all of my keys with linear patterns and extruded them so that I have a plate with the 14mm x 14mm cutoutts in the proper positions replicating the PCB layout. 
+
+![Screenshot of onshape tab with my completed plate and bottom tray](.\journal-pics\image-12.png)
