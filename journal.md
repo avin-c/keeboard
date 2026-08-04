@@ -70,3 +70,7 @@ Here is my layout made in keyboard-layout-editor:
 Here is the plate I made with my layout and the plate generator website: 
 
 ![Plate outline of my keyboard](.\journal-pics\image-15.png)
+
+(1 hour) Imported the sketch onto the Onshape Part Studio and had enormous difficulties moving it so that it matched with the existing PCB switches. I tried to drag and drop but that made them all circles or something and then I tried to select all and transform sketch but then that also made it all circles. So then finallly I had to extrude it into a 3d object and then use mate connectors to transform it, except it took FOREVER to find a suitable location for the mate connectors, so I eventually just used a corner. Anyways, I now have a plate with all the stabilizers AND switches cut out. 
+
+![Plate with both switches and stabilizers cutout in onshape](.\journal-pics\image-16.png)
