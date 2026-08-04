@@ -49,3 +49,6 @@ Point where I realized that the switches were wrong (when the switches were so l
 
 Fixed 3d model that I can use later for the case making:
 ![Fixed 3d model of pcb with switches repositioned](.\journal-pics\image-10.png)
+
+(1 hour) Finalized the 3d STEP model of the pcb board. Continued working on the bottom part of the case and decided that I would have a little inset for the plate instead of just being pure sandwich, so that there aren't as many layers visible on the side profile. So the next step is to create the plate, which I am still not sure exactly how to do. Anyways thats all for today. 
+![Bottom tray case in onshape](image.png)
