@@ -58,3 +58,15 @@ Fixed 3d model that I can use later for the case making:
 (1 hour | [Lapse link](https://lapse.hackclub.com/timelapse/3pcBLhghpw3_)) Continued working on the case for the keyboard, mainly focusing on the plate that seats the switches. Made a cutouts for all of my keys with linear patterns and extruded them so that I have a plate with the 14mm x 14mm cutoutts in the proper positions replicating the PCB layout. 
 
 ![Screenshot of onshape tab with my completed plate and bottom tray](.\journal-pics\image-12.png)
+
+(1 hour) So I thought I had it all figured out with the switches, so I did the rotary encoders, did the USB-c cutout, and even a little cutout of the Pico cuz there were some things sticking out. And then I realized I didn't put in the stabilizers! And I was wondering and wondering how to put the stablizers in because I didnt know anything about them so I asked on Slack and somebody told me that I was doing it all very inefficiently. Apparently there's already websites for making a plate instead of doing the linear pattern yourself, complete with the stabilizers and all. So I did that and was able to make a more accurate plate sketch. 
+
+Here is my completed case before I realized that I needed stablizers:
+![Keyboard case and plate](.\journal-pics\image-14.png)
+
+Here is my layout made in keyboard-layout-editor:
+![Keyboard layout in keyboard-layout-editor](.\journal-pics\image-13.png)
+
+Here is the plate I made with my layout and the plate generator website: 
+
+![Plate outline of my keyboard](.\journal-pics\image-15.png)
