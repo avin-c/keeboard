@@ -86,10 +86,18 @@ Here is the plate I made with my layout and the plate generator website:
 ![Keyboard assembly with all keycaps added](.\journal-pics\image-18.png)
 
 (1.5 hours) Finished the top case, which includes a little border around the keycaps, a smaller circular cutout for the volume knob, and a shallow tray to take up the blank space above the top row. However, at this point, the bottom tray, plate, and top case were all the same size, meaning that it would look obvious that there would be 3 layers. So I set the plate smaller and added a wall on the bottom tray so that the plate would fit into the bottom tray, as seen below. 
-![Picture of the plate inset into the tray](image-1.png)
+![Picture of the plate inset into the tray](.\journal-pics\image-19.png)
 
 However, by doing so, the wall was no longer thick enough to contain a full M3 screw and insert. So I had to create this triangular piece rib in all 4 corners to allow space for the boss. I will have to make corner cuts to the PCB later. Anyways, when I finished doing that I added the cylindrical bosses that would allow the top case, plate, and bottom tray to all be screwed together. 
 
-![Picture of the finished keyboard](image.png)
+![Picture of the finished keyboard](.\journal-pics\image-20.png)
 
-![Another picture of the finished keyboard with all the case parts](image-2.png)
+![Another picture of the finished keyboard with all the case parts](.\journal-pics\image-21.png)
+
+
+(1.5 hours) Refined USB-c port, added padding/legs for better base support, filleted sharp edges, and added a knob for volume control with the rotary encoder.
+![Knob](.\journal-pics\image-26.png)
+![USB-c port refined](.\journal-pics\image-23.png)
+Feet for the rubber pads to go into
+![Base supports](.\journal-pics\image-24.png)
+![Current finished render](.\journal-pics\image-25.png)
