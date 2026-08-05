@@ -101,3 +101,15 @@ However, by doing so, the wall was no longer thick enough to contain a full M3 s
 Feet for the rubber pads to go into
 ![Base supports](.\journal-pics\image-24.png)
 ![Current finished render](.\journal-pics\image-25.png)
+
+(0.5 hours) Split the keyboard in half for printing, adding a kinda puzzle/dovetail joint for the plate as it was too thin, and then added some mortise and tenons for the top and bottom parts of the case. Hopefully there won't be a visible seam down the middle.
+
+![Left half of keyboard](.\journal-pics\image-27.png)
+![Right half of keyboard](.\journal-pics\image-28.png)
+
+(0.5 hours) Finished up some last minute fixes and exported the file to be printed. 
+
+
+Finished build!
+
+![Finished Build](image-1.png)
