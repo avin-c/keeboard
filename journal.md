@@ -75,6 +75,12 @@ Here is the plate I made with my layout and the plate generator website:
 
 ![Plate with both switches and stabilizers cutout in onshape](.\journal-pics\image-16.png)
 
+### Aug 5
+
 (2 hours) Finished the plate and bottom tray, and added a nice cutout for the rotary encoder, Raspberry Pi Pico and USB-C port. Started working on the top case. However, I am struggling to figure out how exactly I wanted to make the top case, as I have no prior experience with it, so I decided to add the keycaps as a reference before I make it. So I am in the process of adding each keycap individually (imported from a GrabCad file of course) but it is a little bit tedious. 
 
 ![Half completed case with plate completed with cutouts and keycaps half added](.\journal-pics\image-17.png)
+
+(0.5 hours) Update: finished up all the keycaps, now that I have the proper dimensions, I can finally get started on the top part of the case!
+
+![Keyboard assembly with all keycaps added](.\journal-pics\image-18.png)
