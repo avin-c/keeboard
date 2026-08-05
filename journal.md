@@ -112,4 +112,7 @@ Feet for the rubber pads to go into
 
 Finished build!
 
-![Finished Build](image-1.png)
+![Finished Build](.\journal-pics\image-29.png)
+
+(0.5 hours) Added chamfers on the PCB corners so that it would fit into the case housing. Then exported the files for final submission
+![PCB with chamfered corners](.\journal-pics\image-30.png)
