@@ -126,3 +126,7 @@ Finished build!
 (1 hour) Finally finished working on the bill of materials, doing lots of research for the keycaps, stabilizers, switches. Landed on buying the Gateron Quinns after seeing lots of positive reviews, and it matching the medium tactile switch type that I wanted. 
 
 ![BOM](.\journal-pics\image-32.png)
+
+(1 hour) After a lot of review and research, finally settled on the SHOKO PBT Double Shot Keycap Set. HOWEVER, I realized that I didn't even have the right keys, as my keyboard layout is very unique compared to typical keyboards, due to the large size of it all. Anyways, this may result in me having to reconfigure everything, OR I can make new keycaps by 3d printing them but I'm afraid they won't be at a good quality. Anyways thats what I've been working on, a very big problem. 
+
+![Keycaps](.\journal-pics\image-33.png)
