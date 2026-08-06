@@ -116,3 +116,13 @@ Finished build!
 
 (0.5 hours) Added chamfers on the PCB corners so that it would fit into the case housing. Then exported the files for final submission
 ![PCB with chamfered corners](.\journal-pics\image-30.png)
+
+### Aug 6
+
+(1 hour) Started working on the BOM, adding the diode and rubber pads. Started working on buying the heatset insert, and then realized my bosses were too small for M3 screws. So now I am trying to increase the diameter of my bosses while changing my screw size to M2.5. When buying the screw, I realized that the head is 5mm, which my hole is not big enough for, so I had to expand the part of the hole not threaded by the screw. 
+
+![Screw insert](.\journal-pics\image-31.png)
+
+(1 hour) Finally finished working on the bill of materials, doing lots of research for the keycaps, stabilizers, switches. Landed on buying the Gateron Quinns after seeing lots of positive reviews, and it matching the medium tactile switch type that I wanted. 
+
+![BOM](.\journal-pics\image-32.png)
