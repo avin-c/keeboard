@@ -131,6 +131,10 @@ Finished build!
 
 ![Keycaps](.\journal-pics\image-33.png)
 
+### Aug 8
+
 (1 hour) So after a day of thinking and consulting with the printing legion people, I realized that it is not a good option to 3d print my keycaps as they wouldn't match the correct color and I wouldn't be very happy about the final result. So I decided to change my layout in accordance with the keycap set I am buying to a more standardized layout with common keycap sizes for Right Shift, Enter, and Backspace. Ultimately this was just because I wanted a nicer overall keyboard. I think I can add more keys in a future iteration but I think this is a nice compact keyboard now. 
 
 ![New layout](.\journal-pics\image-34.png)
+
+(1 hour) Updated the schematic with the new layout, briefly considering to change it to a more expanded layout but ultimately deciding against it. Also updated the schematic with the proper footprints for the newly sized keys. 
