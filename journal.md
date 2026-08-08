@@ -138,3 +138,9 @@ Finished build!
 ![New layout](.\journal-pics\image-34.png)
 
 (1 hour) Updated the schematic with the new layout, briefly considering to change it to a more expanded layout but ultimately deciding against it. Also updated the schematic with the proper footprints for the newly sized keys. 
+
+![Updated schematic](image-1.png)
+
+(1 hour) Updated PCB with new layout after updating it to the schematic, had to layout everything to match the schematic and just the positions of the newly sized keys. However, I discovered a new trick of using a smaller grid, like a 19.05/4 or 19.05/8 grid to easily adjust and fine tune. However in the process of doing so I deleted all the route traces so that I could get a reset and not mess anything up. 
+
+![Updated PCB](image.png)
