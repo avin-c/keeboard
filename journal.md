@@ -130,3 +130,7 @@ Finished build!
 (1 hour) After a lot of review and research, finally settled on the SHOKO PBT Double Shot Keycap Set. HOWEVER, I realized that I didn't even have the right keys, as my keyboard layout is very unique compared to typical keyboards, due to the large size of it all. Anyways, this may result in me having to reconfigure everything, OR I can make new keycaps by 3d printing them but I'm afraid they won't be at a good quality. Anyways thats what I've been working on, a very big problem. 
 
 ![Keycaps](.\journal-pics\image-33.png)
+
+(1 hour) So after a day of thinking and consulting with the printing legion people, I realized that it is not a good option to 3d print my keycaps as they wouldn't match the correct color and I wouldn't be very happy about the final result. So I decided to change my layout in accordance with the keycap set I am buying to a more standardized layout with common keycap sizes for Right Shift, Enter, and Backspace. Ultimately this was just because I wanted a nicer overall keyboard. I think I can add more keys in a future iteration but I think this is a nice compact keyboard now. 
+
+![New layout](.\journal-pics\image-34.png)
