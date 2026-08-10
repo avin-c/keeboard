@@ -150,3 +150,7 @@ Finished build!
 (2 hours) Finished the layout and added the edge cut to the right place because I decided to move the rotary encoder and Pico to the right to save space and make the whole keyboard smaller. Then, I finished routing the columns. However, I thought I was being smart by routing the columns to like the row 3 switch or something like that but when I had to finish routing it, I realized that it conflicted with the rows. So then I had to go back and make sure it was all on the first or second row. Anyways, thats all for today. 
 
 ![Half completed route trace](.\journal-pics\image-35.png)
+
+### Aug 10
+
+(1 hour) Finished up remaining route traces. Added the ground fill for both sides and fixed some errors regarding it that poppped up in the drc concerning the thermal relief spokes which I didnt really understand. Exported the gerber files. I feel like I'm repeating everything cuz I had to do the layout again and then everything basically got reworked so it feels kinda cool cuz I know what I'm doing and I feel like I could do it again without the tutorial. 
