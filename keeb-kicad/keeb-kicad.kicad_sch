@@ -5268,7 +5268,7 @@
 		)
 		(uuid "17df1900-c754-472d-9c41-0f5be01f73da")
 	)
-	(label "ROW4"
+	(label "ROW0"
 		(at 163.83 173.99 180)
 		(effects
 			(font
@@ -5308,7 +5308,7 @@
 		)
 		(uuid "22633cb9-ded3-49a2-8c5f-a631a2f95e1b")
 	)
-	(label "ROW1"
+	(label "ROW3"
 		(at 165.1 158.75 180)
 		(effects
 			(font
@@ -5348,7 +5348,7 @@
 		)
 		(uuid "2e7c24d3-93f4-45af-be4a-71df75a8d946")
 	)
-	(label "ROW3"
+	(label "ROW1"
 		(at 165.1 163.83 180)
 		(effects
 			(font
@@ -5518,7 +5518,7 @@
 		)
 		(uuid "9b67010f-0468-491e-9939-b8104fce762d")
 	)
-	(label "ROW0"
+	(label "ROW4"
 		(at 165.1 156.21 180)
 		(effects
 			(font
@@ -5760,7 +5760,7 @@
 			(uuid "2e7a412c-140e-4c07-a0e8-aa963b05f367")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW54")
 					(unit 1)
@@ -5840,7 +5840,7 @@
 			(uuid "d28902a5-a669-4e98-ada6-03f1d41889b5")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW46")
 					(unit 1)
@@ -5944,7 +5944,7 @@
 			(uuid "e1987d4d-58af-43d2-8ae9-f42863f114a1")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D4")
 					(unit 1)
@@ -6024,7 +6024,7 @@
 			(uuid "a53afead-601c-4979-8448-94faa2681f49")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW68")
 					(unit 1)
@@ -6127,7 +6127,7 @@
 			(uuid "9cc785eb-9d1b-4703-b9c2-97ed13da827e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D57")
 					(unit 1)
@@ -6207,7 +6207,7 @@
 			(uuid "5d2ce3d7-d08a-4e9b-aaa0-c2b76c5044c9")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW66")
 					(unit 1)
@@ -6287,7 +6287,7 @@
 			(uuid "d1a8d6aa-f766-4f54-af72-b10bd965678c")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW58")
 					(unit 1)
@@ -6390,7 +6390,7 @@
 			(uuid "65c4bf01-0457-4fe8-a518-a5cb7571d2b9")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D41")
 					(unit 1)
@@ -6494,7 +6494,7 @@
 			(uuid "4424be17-9a66-42ca-8a7f-9aaf820a43e5")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D47")
 					(unit 1)
@@ -6574,7 +6574,7 @@
 			(uuid "06ed23dc-321c-4c5e-8c2b-f710a4af514f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW65")
 					(unit 1)
@@ -6654,7 +6654,7 @@
 			(uuid "6cf4abd7-5413-425a-abcb-aec754ac9cfa")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW8")
 					(unit 1)
@@ -6734,7 +6734,7 @@
 			(uuid "71920ac1-25f6-4a0b-9496-e5fdfd1081a3")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW19")
 					(unit 1)
@@ -6814,7 +6814,7 @@
 			(uuid "9fd51a7b-cadb-4466-854d-61f10ed1af01")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW4")
 					(unit 1)
@@ -6894,7 +6894,7 @@
 			(uuid "46496540-385b-4493-85e7-f6db03a85ed4")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW30")
 					(unit 1)
@@ -6998,7 +6998,7 @@
 			(uuid "b4bdd4b3-6894-4e71-9eaa-2cdd06f4e5e3")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D15")
 					(unit 1)
@@ -7102,7 +7102,7 @@
 			(uuid "1f9e5a6b-42eb-4af0-a17e-84eb784f118c")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D6")
 					(unit 1)
@@ -7205,7 +7205,7 @@
 			(uuid "58e8e5ed-db7c-4d4e-9833-bed544e9ad15")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D28")
 					(unit 1)
@@ -7309,7 +7309,7 @@
 			(uuid "a537330b-c489-4241-91d9-5de8fbbfc154")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D5")
 					(unit 1)
@@ -7412,7 +7412,7 @@
 			(uuid "71c82e50-b9eb-412c-a958-be0bd7b75f85")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D63")
 					(unit 1)
@@ -7490,7 +7490,7 @@
 			(uuid "bb912517-be61-4b08-99b2-0710d23ae3a5")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "#PWR01")
 					(unit 1)
@@ -7570,7 +7570,7 @@
 			(uuid "d2878dfb-5d3a-4819-a36c-6f3d2ebdf8c4")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW42")
 					(unit 1)
@@ -7673,7 +7673,7 @@
 			(uuid "7daf3639-f0fa-4165-b9eb-45ad0bb6ac5a")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D20")
 					(unit 1)
@@ -7776,7 +7776,7 @@
 			(uuid "3c63255e-e11d-4a13-80c2-141ecf6a55ea")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D16")
 					(unit 1)
@@ -7856,7 +7856,7 @@
 			(uuid "a302815b-69b9-408d-935c-4455b824b9b3")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW32")
 					(unit 1)
@@ -7959,7 +7959,7 @@
 			(uuid "4c210f1a-e945-4788-8701-0d59fd49e818")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D31")
 					(unit 1)
@@ -8062,7 +8062,7 @@
 			(uuid "e752381f-8be2-4211-b79d-da9c34ecc745")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D42")
 					(unit 1)
@@ -8142,7 +8142,7 @@
 			(uuid "86abe60a-6073-412e-8e00-1fa3c580af23")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW5")
 					(unit 1)
@@ -8222,7 +8222,7 @@
 			(uuid "bb21bfdf-0e86-420e-8f7e-d873cb01a4fb")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW56")
 					(unit 1)
@@ -8325,7 +8325,7 @@
 			(uuid "4f7bb40b-d38a-4534-8d5b-65205c982018")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D64")
 					(unit 1)
@@ -8428,7 +8428,7 @@
 			(uuid "5a56e937-8f75-442b-b8e8-16002b342971")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D55")
 					(unit 1)
@@ -8508,7 +8508,7 @@
 			(uuid "af7b597f-987f-40c1-8a03-09e4456e1a2c")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW64")
 					(unit 1)
@@ -8588,7 +8588,7 @@
 			(uuid "3395c0e1-1a75-4596-b155-9d9089f3b432")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW23")
 					(unit 1)
@@ -8668,7 +8668,7 @@
 			(uuid "b674de44-0dbd-4e6b-ae4c-896db0ed8893")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW37")
 					(unit 1)
@@ -8748,7 +8748,7 @@
 			(uuid "036f87b2-96d6-4366-9349-f52fe9e00796")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW15")
 					(unit 1)
@@ -8828,7 +8828,7 @@
 			(uuid "4450ae48-0042-43c8-b0a4-c75ca4684736")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW13")
 					(unit 1)
@@ -8908,7 +8908,7 @@
 			(uuid "d7e068c6-eb77-4630-bbc1-b8802e35a5b0")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW41")
 					(unit 1)
@@ -8988,7 +8988,7 @@
 			(uuid "8b76a701-23ac-4120-8413-4c79bb4b7ad9")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW43")
 					(unit 1)
@@ -9091,7 +9091,7 @@
 			(uuid "c81ec2c7-fb1e-4089-afc9-8e80426a44b5")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D35")
 					(unit 1)
@@ -9166,7 +9166,7 @@
 			)
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "S5")
 					(unit 1)
@@ -9246,7 +9246,7 @@
 			(uuid "79242896-feed-4a79-b127-816cd3c23473")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW62")
 					(unit 1)
@@ -9349,7 +9349,7 @@
 			(uuid "322e4134-a2d3-49da-bbb7-2a535827d6fc")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D23")
 					(unit 1)
@@ -9453,7 +9453,7 @@
 			(uuid "e1b77b59-8c90-4b02-ad1e-69d2458800bc")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D14")
 					(unit 1)
@@ -9528,7 +9528,7 @@
 			)
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "S1")
 					(unit 1)
@@ -9631,7 +9631,7 @@
 			(uuid "46442ca8-b453-403a-8638-dc92ccb69a0f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D40")
 					(unit 1)
@@ -9711,7 +9711,7 @@
 			(uuid "77c03acb-3b44-491b-b4af-6797b1ba7794")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW25")
 					(unit 1)
@@ -9907,7 +9907,7 @@
 			(uuid "70918ed7-202a-437c-8e19-42b2e619256b")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "A1")
 					(unit 1)
@@ -9987,7 +9987,7 @@
 			(uuid "56e289d2-7fe8-408c-ac6f-79fb7ebba6b4")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW38")
 					(unit 1)
@@ -10067,7 +10067,7 @@
 			(uuid "2ebcff56-5080-4d4e-be3a-b7bfd73b3d08")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW60")
 					(unit 1)
@@ -10142,7 +10142,7 @@
 			)
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "S2")
 					(unit 1)
@@ -10245,7 +10245,7 @@
 			(uuid "a8e92103-4170-4989-875b-c9025e70775d")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D52")
 					(unit 1)
@@ -10325,7 +10325,7 @@
 			(uuid "9ee3a995-876a-4bce-a89b-4d27debf853f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW35")
 					(unit 1)
@@ -10405,7 +10405,7 @@
 			(uuid "3865b982-478d-481d-b02b-c553608d6ba4")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW50")
 					(unit 1)
@@ -10485,7 +10485,7 @@
 			(uuid "670d48d9-0cb2-4ad4-8307-e8e1e156633c")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW31")
 					(unit 1)
@@ -10565,7 +10565,7 @@
 			(uuid "550b7a3c-f156-4ab1-be59-397aab0030a6")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW51")
 					(unit 1)
@@ -10668,7 +10668,7 @@
 			(uuid "fd65bda1-5097-418c-a326-68af01b16802")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D21")
 					(unit 1)
@@ -10772,7 +10772,7 @@
 			(uuid "8bb164a4-dac7-4891-93ed-51de1f2cefed")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D3")
 					(unit 1)
@@ -10875,7 +10875,7 @@
 			(uuid "8de6dc66-3222-4034-b5bd-e1670411cee5")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D58")
 					(unit 1)
@@ -10978,7 +10978,7 @@
 			(uuid "aac079f0-8a40-4101-baa5-4a330f08dea5")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D39")
 					(unit 1)
@@ -11058,7 +11058,7 @@
 			(uuid "2bd319f0-25a3-403e-94b0-be29369c7bfe")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW1")
 					(unit 1)
@@ -11161,7 +11161,7 @@
 			(uuid "38183fdd-2515-4883-ae9c-1c1d9e52b102")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D60")
 					(unit 1)
@@ -11264,7 +11264,7 @@
 			(uuid "95cb035e-73f1-492f-88cc-b54496ec1334")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D51")
 					(unit 1)
@@ -11367,7 +11367,7 @@
 			(uuid "280132e3-5cc5-4a6f-b91e-eaa784c2c05e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D27")
 					(unit 1)
@@ -11447,7 +11447,7 @@
 			(uuid "fa857b75-b555-4b1d-803f-aa7120e15621")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW18")
 					(unit 1)
@@ -11551,7 +11551,7 @@
 			(uuid "10532fd8-5674-45e9-8823-30d9dad880bc")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D8")
 					(unit 1)
@@ -11631,7 +11631,7 @@
 			(uuid "e8a040a6-c6ed-47bf-b174-65493c8f499c")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW63")
 					(unit 1)
@@ -11734,7 +11734,7 @@
 			(uuid "1586db39-6fc6-4acd-b055-6187cf458b0e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D49")
 					(unit 1)
@@ -11837,7 +11837,7 @@
 			(uuid "0631472d-8a10-48f4-8f63-0d875d92675a")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D53")
 					(unit 1)
@@ -11940,7 +11940,7 @@
 			(uuid "fbd43b23-a262-4e27-8221-93c32b35f843")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D37")
 					(unit 1)
@@ -12020,7 +12020,7 @@
 			(uuid "dd50a4bf-1d30-41ec-beaa-239b041acff2")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW39")
 					(unit 1)
@@ -12095,7 +12095,7 @@
 			)
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "S4")
 					(unit 1)
@@ -12198,7 +12198,7 @@
 			(uuid "89119b9a-4f41-4c2b-8a47-9232fbefe879")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D54")
 					(unit 1)
@@ -12278,7 +12278,7 @@
 			(uuid "a65ab8b5-f74d-4e8c-baf0-7f56b5259ee0")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW28")
 					(unit 1)
@@ -12358,7 +12358,7 @@
 			(uuid "4fa56ca6-e374-4759-ba7e-3748af104670")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW52")
 					(unit 1)
@@ -12438,7 +12438,7 @@
 			(uuid "bb9b49c5-d46d-4029-8e6b-0daafe53e893")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW20")
 					(unit 1)
@@ -12542,7 +12542,7 @@
 			(uuid "ee2684d1-77a8-4854-ac92-80ca7fdbb9fd")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D11")
 					(unit 1)
@@ -12622,7 +12622,7 @@
 			(uuid "0c6cfe81-854c-4469-8859-7347c91e51d6")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW48")
 					(unit 1)
@@ -12702,7 +12702,7 @@
 			(uuid "0f5eb276-92bf-4812-b914-7ee17971d566")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW44")
 					(unit 1)
@@ -12806,7 +12806,7 @@
 			(uuid "6f624195-950d-4e85-bf99-234706e18841")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D13")
 					(unit 1)
@@ -12909,7 +12909,7 @@
 			(uuid "9d14ce86-270e-4394-bde8-57e68002c1d3")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D36")
 					(unit 1)
@@ -13012,7 +13012,7 @@
 			(uuid "7b8de7bc-63da-46d7-809e-132de27d13da")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D38")
 					(unit 1)
@@ -13115,7 +13115,7 @@
 			(uuid "5cad88e1-80ce-432c-81eb-efd80e97f6b2")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D32")
 					(unit 1)
@@ -13195,7 +13195,7 @@
 			(uuid "f36154cd-f8d3-4604-b3aa-8c25f3452cf9")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW67")
 					(unit 1)
@@ -13298,7 +13298,7 @@
 			(uuid "7de0c6ac-9468-4ea1-8464-a1e778ea8683")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D68")
 					(unit 1)
@@ -13401,7 +13401,7 @@
 			(uuid "2a8c73a7-7e73-4ec8-8ba5-8c34db6caf1d")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D65")
 					(unit 1)
@@ -13481,7 +13481,7 @@
 			(uuid "b7820027-a2ba-416f-a3ea-c7b9f7049336")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW26")
 					(unit 1)
@@ -13584,7 +13584,7 @@
 			(uuid "e5e41b5c-b281-4443-b2df-20f2ba1d515e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D25")
 					(unit 1)
@@ -13664,7 +13664,7 @@
 			(uuid "3dffc0b8-cfc4-4889-8320-a5a32a2638ec")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW59")
 					(unit 1)
@@ -13744,7 +13744,7 @@
 			(uuid "8b8a3307-5bd8-440d-bdc1-0feb6c7ce6ba")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW22")
 					(unit 1)
@@ -13824,7 +13824,7 @@
 			(uuid "8d96acc3-f475-4d54-b604-0d10119956c8")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW10")
 					(unit 1)
@@ -13904,7 +13904,7 @@
 			(uuid "9a4c5155-cfe5-4962-9233-dcac80846656")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW21")
 					(unit 1)
@@ -14007,7 +14007,7 @@
 			(uuid "c2e940d6-bfef-45ff-af25-3132f23c2689")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D33")
 					(unit 1)
@@ -14087,7 +14087,7 @@
 			(uuid "0f5f9398-def1-4382-af8e-6f648ff473c6")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW16")
 					(unit 1)
@@ -14190,7 +14190,7 @@
 			(uuid "5229f933-02bc-4482-9399-7cde96fc704f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D19")
 					(unit 1)
@@ -14293,7 +14293,7 @@
 			(uuid "56886a12-024f-44a7-8b8d-d956c6b92e31")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D59")
 					(unit 1)
@@ -14396,7 +14396,7 @@
 			(uuid "6161e72b-7814-4a87-86d5-7178d0056677")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D18")
 					(unit 1)
@@ -14476,7 +14476,7 @@
 			(uuid "69e98516-7f06-401c-b66e-bb9abd015fc2")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW9")
 					(unit 1)
@@ -14556,7 +14556,7 @@
 			(uuid "1c88bbc4-80ae-442b-9a19-f873a42c1eeb")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW2")
 					(unit 1)
@@ -14636,7 +14636,7 @@
 			(uuid "52682013-c8f8-4eb2-8af8-8cc9dee4303f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW7")
 					(unit 1)
@@ -14740,7 +14740,7 @@
 			(uuid "09b9385e-b62d-4e65-bc07-ca39310a1ab0")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D7")
 					(unit 1)
@@ -14815,7 +14815,7 @@
 			)
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "S3")
 					(unit 1)
@@ -14893,7 +14893,7 @@
 			(uuid "2e3cdd52-78e5-4e56-ad5d-6cba2f9dcb26")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "#PWR02")
 					(unit 1)
@@ -14997,7 +14997,7 @@
 			(uuid "fd15d7e4-b3c1-48c4-b288-82ef3dc70659")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D56")
 					(unit 1)
@@ -15077,7 +15077,7 @@
 			(uuid "d3611311-4e53-49b5-8942-2835ce6d9628")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW17")
 					(unit 1)
@@ -15157,7 +15157,7 @@
 			(uuid "886b3bde-378b-404a-aaf1-6ba4ec9396d2")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW29")
 					(unit 1)
@@ -15237,7 +15237,7 @@
 			(uuid "71136df8-dc40-4268-8975-ce56561223d0")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW33")
 					(unit 1)
@@ -15317,7 +15317,7 @@
 			(uuid "a55b0b7f-cf3f-4b4c-87f1-80e0f9fb6c25")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW6")
 					(unit 1)
@@ -15420,7 +15420,7 @@
 			(uuid "b3ddfc25-5fd1-4121-84af-c7ab96866a3e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D17")
 					(unit 1)
@@ -15500,7 +15500,7 @@
 			(uuid "60d4143d-6480-45e4-b0c1-3dbce15c5ddd")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW11")
 					(unit 1)
@@ -15580,7 +15580,7 @@
 			(uuid "53f0933a-87a3-4aef-8a97-c5c78f9ad022")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW24")
 					(unit 1)
@@ -15660,7 +15660,7 @@
 			(uuid "af335365-b624-4c73-a9cc-3aa69f6441ad")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW53")
 					(unit 1)
@@ -15740,7 +15740,7 @@
 			(uuid "26e12436-1f3d-4c5b-8e76-e7942571e666")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW36")
 					(unit 1)
@@ -15843,7 +15843,7 @@
 			(uuid "3cb09bab-08c2-4f82-bc14-3c6926ec7bac")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D24")
 					(unit 1)
@@ -15923,7 +15923,7 @@
 			(uuid "6e32702a-e48a-43a4-a735-2d6abe23f32f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW12")
 					(unit 1)
@@ -16003,7 +16003,7 @@
 			(uuid "d04fef3d-c108-46dd-96a9-a9748b271c14")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW57")
 					(unit 1)
@@ -16106,7 +16106,7 @@
 			(uuid "08c478af-0f09-49dc-8ed2-3ef713855c18")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D67")
 					(unit 1)
@@ -16186,7 +16186,7 @@
 			(uuid "e1c2134c-b4ef-4c2f-a239-c6f4b1d36428")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW3")
 					(unit 1)
@@ -16289,7 +16289,7 @@
 			(uuid "5c5996a6-3e01-4bfc-a7fb-39f23e4f46fc")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D22")
 					(unit 1)
@@ -16393,7 +16393,7 @@
 			(uuid "20e948b5-f95c-4b0b-9288-0e2bf40d3d8a")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D2")
 					(unit 1)
@@ -16496,7 +16496,7 @@
 			(uuid "ac29bffe-f7a4-44ca-a783-5247a775e96f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D1")
 					(unit 1)
@@ -16576,7 +16576,7 @@
 			(uuid "393f5175-befd-4c76-a2e1-e2420ebdfdfc")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW47")
 					(unit 1)
@@ -16680,7 +16680,7 @@
 			(uuid "952f179e-c744-4752-b2c9-fbeafaa175da")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D10")
 					(unit 1)
@@ -16783,7 +16783,7 @@
 			(uuid "b31b44e5-1c2a-4550-81ac-3a0c78a4c2fd")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D34")
 					(unit 1)
@@ -16887,7 +16887,7 @@
 			(uuid "f28316d3-00b3-414b-8d37-6a128d243fc9")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D9")
 					(unit 1)
@@ -16990,7 +16990,7 @@
 			(uuid "1f768590-cc48-4331-b53a-1bb51abaa9e6")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D44")
 					(unit 1)
@@ -17093,7 +17093,7 @@
 			(uuid "791a2bfc-69b4-40ce-9a6a-66283278aeca")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D30")
 					(unit 1)
@@ -17196,7 +17196,7 @@
 			(uuid "df09ecd0-2994-4bfa-8c71-e26e6b89873c")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D26")
 					(unit 1)
@@ -17299,7 +17299,7 @@
 			(uuid "26ddc9d1-cdd3-4478-87db-5f6dd2ef9249")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D43")
 					(unit 1)
@@ -17403,7 +17403,7 @@
 			(uuid "ae6397a6-77cd-4752-b287-6b817439258e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D12")
 					(unit 1)
@@ -17483,7 +17483,7 @@
 			(uuid "62e337f3-2e31-42bd-a3e0-84c0dcb25223")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW27")
 					(unit 1)
@@ -17563,7 +17563,7 @@
 			(uuid "a3a813ed-cde8-4fb2-934a-e53a7bef258f")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW55")
 					(unit 1)
@@ -17666,7 +17666,7 @@
 			(uuid "cce8575d-5f52-4fba-844d-c1ed194b9472")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D45")
 					(unit 1)
@@ -17769,7 +17769,7 @@
 			(uuid "040857c9-e501-4288-b9e5-0549114cdf6b")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D46")
 					(unit 1)
@@ -17849,7 +17849,7 @@
 			(uuid "d9680048-f035-4f5d-93be-c928b3130d12")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW61")
 					(unit 1)
@@ -17927,7 +17927,7 @@
 			(uuid "91784dcb-1754-4248-8132-6fc17dfb8280")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "#PWR03")
 					(unit 1)
@@ -18030,7 +18030,7 @@
 			(uuid "bb2d0cb6-5a26-4373-b768-ced0595f5d03")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D50")
 					(unit 1)
@@ -18119,7 +18119,7 @@
 			(uuid "baebf2a1-c61c-4beb-ac4c-b813b85a9bca")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW69")
 					(unit 1)
@@ -18199,7 +18199,7 @@
 			(uuid "fcb3b1d0-42af-485a-9eaa-48fda5f1bbfd")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW34")
 					(unit 1)
@@ -18302,7 +18302,7 @@
 			(uuid "bb19c0d7-8b5b-4022-bfe3-5de02348de0d")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D62")
 					(unit 1)
@@ -18405,7 +18405,7 @@
 			(uuid "8ae97816-16dd-4884-ac43-2ffbed3f1f11")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D29")
 					(unit 1)
@@ -18485,7 +18485,7 @@
 			(uuid "e5702037-429e-432f-a94b-a1bd0a5f9eff")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW14")
 					(unit 1)
@@ -18588,7 +18588,7 @@
 			(uuid "aabafc75-b019-42a5-8017-d61491ebe04a")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D48")
 					(unit 1)
@@ -18668,7 +18668,7 @@
 			(uuid "eaee4029-09a9-47d7-b47c-1b586dc8a81e")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW40")
 					(unit 1)
@@ -18748,7 +18748,7 @@
 			(uuid "43e9e8b7-3e89-4b02-b4a4-851487bb25a8")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW45")
 					(unit 1)
@@ -18828,7 +18828,7 @@
 			(uuid "1915d92b-4d56-4289-9a29-287a976037bb")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "SW49")
 					(unit 1)
@@ -18931,7 +18931,7 @@
 			(uuid "739d714a-484c-42ce-b578-92b1e200d419")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D66")
 					(unit 1)
@@ -19034,7 +19034,7 @@
 			(uuid "8301257f-c4bc-48ed-895f-84549eb46d0a")
 		)
 		(instances
-			(project "keeb-schematic"
+			(project "keeb-kicad"
 				(path "/e712c4fd-eb72-4b90-816e-2a87f9f0352e"
 					(reference "D61")
 					(unit 1)

@@ -144,3 +144,9 @@ Finished build!
 (1 hour) Updated PCB with new layout after updating it to the schematic, had to layout everything to match the schematic and just the positions of the newly sized keys. However, I discovered a new trick of using a smaller grid, like a 19.05/4 or 19.05/8 grid to easily adjust and fine tune. However in the process of doing so I deleted all the route traces so that I could get a reset and not mess anything up. 
 
 ![Updated PCB](image.png)
+
+### Aug 9
+
+(2 hours) Finished the layout and added the edge cut to the right place because I decided to move the rotary encoder and Pico to the right to save space and make the whole keyboard smaller. Then, I finished routing the columns. However, I thought I was being smart by routing the columns to like the row 3 switch or something like that but when I had to finish routing it, I realized that it conflicted with the rows. So then I had to go back and make sure it was all on the first or second row. Anyways, thats all for today. 
+
+![Half completed route trace](.\journal-pics\image-35.png)
