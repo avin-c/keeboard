@@ -154,3 +154,12 @@ Finished build!
 ### Aug 10
 
 (1 hour) Finished up remaining route traces. Added the ground fill for both sides and fixed some errors regarding it that poppped up in the drc concerning the thermal relief spokes which I didnt really understand. Exported the gerber files. I feel like I'm repeating everything cuz I had to do the layout again and then everything basically got reworked so it feels kinda cool cuz I know what I'm doing and I feel like I could do it again without the tutorial. 
+
+![Complted PCB](.\journal-pics\image-36.png)
+
+
+# Aug 11
+
+(1.5 hours) Inserted new PCB design and layout into Onshape to make the new case. Extruded the layout onto the plate, then added the bottom case. Plate now sits into a ledge on the bottom case, with a .2 mm offset. No ledge on the top side of the keyboard, as I want the USB-C port to be as close to the edge as possible for easy wire connections. 
+
+![Half completed case](.\journal-pics\image-37.png)
