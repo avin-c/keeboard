@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../pcb-final-v2/",
+      "plot": "../pcb-final-v4/",
       "specctra_dsn": "",
       "step": "keeb-kicad.step",
       "vrml": ""

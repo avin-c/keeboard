@@ -163,3 +163,13 @@ Finished build!
 (1.5 hours) Inserted new PCB design and layout into Onshape to make the new case. Extruded the layout onto the plate, then added the bottom case. Plate now sits into a ledge on the bottom case, with a .2 mm offset. No ledge on the top side of the keyboard, as I want the USB-C port to be as close to the edge as possible for easy wire connections. 
 
 ![Half completed case](.\journal-pics\image-37.png)
+
+# Aug 15
+
+(2 hours) Continued working on the case, inserting the part studio into assembly and adding the keycaps. Overlayed the case onto the PCB and realized it wasn't accurate. Instead the caps lock key was offset by like 0.25u/2 and the whole pcb was offset by like a little bit, so I had to fix that in the PCB and reset everything on the Onshape file. 
+
+Fixed left shift key
+![Fixed left shift key](.\journal-pics\image-38.png)
+
+Current case
+![Current case](.\journal-pics\image-39.png)
