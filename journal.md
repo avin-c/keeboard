@@ -173,3 +173,9 @@ Fixed left shift key
 
 Current case
 ![Current case](.\journal-pics\image-39.png)
+
+# Aug 16
+
+(2 hours) Continued adding details to the case. Added top part of case with offset of 2mm from keycaps. Added hole for USB-c port and a hole in the top case for the knob of the EC11. Then, I added the holes for the heat set insert for the M2.5 screws. Because of how the PCB is constructed, I can add more screws to add a little more stabilitiy. Then I added some faceblends and fillets to the edges of the case. 
+
+![Aug 16 case](.\journal-pics\image-40.png)
