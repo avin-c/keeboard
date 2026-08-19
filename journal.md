@@ -190,3 +190,7 @@ Speaking of screw holes, there is now 6 screw holes to support each side individ
 ![Left side of casing](.\journal-pics\image-42.png)
 
 Now thinking about it, there is no ledge to support the top middle side of each plate, so I will be adding that now. 
+
+(1 hour) Took wayyyyyy too long to add more of a ledge to the top side of the bottom case. Initially, I wanted to use the sketch process and extend the sketch farther up, but that created a lot of problems with the dependancies further on. When I fixed those dependances, I realized I had lost a sketch, sketch 4, which removed the supports needed for the screw bosses. So, I reverted back to a previous version and used a different approach, instead opting to extrude the plate further down in the feature list. However, I then had problems dealing with the USB-c port, resulting in lots of splits and booleans. And then I had to reconfigure a lot of sketches, for example, the sketch dividing the plate into two pieces. Alas, I have finally gotten to the final iteration of my keyboard case and I am ready to ship. 
+
+![Final completed case, with the plate going alll the way to the edge](.\journal-pics\image-43.png)
