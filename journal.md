@@ -179,3 +179,14 @@ Current case
 (2 hours) Continued adding details to the case. Added top part of case with offset of 2mm from keycaps. Added hole for USB-c port and a hole in the top case for the knob of the EC11. Then, I added the holes for the heat set insert for the M2.5 screws. Because of how the PCB is constructed, I can add more screws to add a little more stabilitiy. Then I added some faceblends and fillets to the edges of the case. 
 
 ![Aug 16 case](.\journal-pics\image-40.png)
+
+# Aug 19
+
+(1 hour) Split keyboard in two to allow for 3d printing, splitting along roughly the middle. For the plate, because it is only 1.5mm thick, I split it along only solid sections, resulting in a segmented line running through the plate. To join the two plates together mechanically, there is a dovetail type puzzle piece thing to connect the two halves. In addition, I added a thicker support for the buttom case on the spacebar side so there is room to support a screw hole. 
+![More room at the spacebar to support screw](.\journal-pics\image-41.png)
+
+Speaking of screw holes, there is now 6 screw holes to support each side individually with 3 screws each. As for the the top and bottom casing, they are split in the middle, with a pin and corresponding hole to align and allow for a snap fit with a .2mm offset. Hopefully that's enough. 
+
+![Left side of casing](.\journal-pics\image-42.png)
+
+Now thinking about it, there is no ledge to support the top middle side of each plate, so I will be adding that now. 
