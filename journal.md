@@ -139,11 +139,11 @@ Finished build!
 
 (1 hour) Updated the schematic with the new layout, briefly considering to change it to a more expanded layout but ultimately deciding against it. Also updated the schematic with the proper footprints for the newly sized keys. 
 
-![Updated schematic](image-1.png)
+![Updated schematic](.\journal-pics\image-45.png)
 
 (1 hour) Updated PCB with new layout after updating it to the schematic, had to layout everything to match the schematic and just the positions of the newly sized keys. However, I discovered a new trick of using a smaller grid, like a 19.05/4 or 19.05/8 grid to easily adjust and fine tune. However in the process of doing so I deleted all the route traces so that I could get a reset and not mess anything up. 
 
-![Updated PCB](image.png)
+![Updated PCB](.\journal-pics\image-44.png)
 
 ### Aug 9
 
@@ -191,12 +191,10 @@ Speaking of screw holes, there is now 6 screw holes to support each side individ
 
 Now thinking about it, there is no ledge to support the top middle side of each plate, so I will be adding that now. 
 
-(1 hour) Took wayyyyyy too long to add more of a ledge to the top side of the bottom case. Initially, I wanted to use the sketch process and extend the sketch farther up, but that created a lot of problems with the dependancies further on. When I fixed those dependances, I realized I had lost a sketch, sketch 4, which removed the supports needed for the screw bosses. So, I reverted back to a previous version and used a different approach, instead opting to extrude the plate further down in the feature list. However, I then had problems dealing with the USB-c port, resulting in lots of splits and booleans. And then I had to reconfigure a lot of sketches, for example, the sketch dividing the plate into two pieces. Alas, I have finally gotten to the final iteration of my keyboard case and I am ready to ship. 
+(1 hour) Took wayyyyyy too long to add more of a ledge to the top side of the bottom case. Initially, I wanted to use the sketch process and extend the sketch farther up, but that created a lot of problems with the dependancies further on. When I fixed those dependances, I realized I had lost a sketch, sketch 4, which removed the supports needed for the screw bosses. So, I reverted back to a previous version and used a different approach, instead opting to extrude the plate further down in the feature list. However, I then had problems dealing with the USB-c port, resulting in lots of splits and booleans. And then I had to reconfigure a lot of sketches, for example, the sketch dividing the plate into two pieces. Alas, I have finally gotten to the final iteration of my keyboard case and I am ready to ship.
 
-![Final completed case, with the plate going alll the way to the edge](.\journal-pics\image-43.png)
-
-# Aug 19 
+![Final completed case, with the plate going alll the way to the edge](.\journal-pics\image-46.png)
 
 (0.5 hour) Added finishing touches like my name cutout on the bottom, and exported it for 3d printing. Assembled the knob with the case as well. 
 
-![Finished case](image-43.png)
+![Finished case](.\journal-pics\image-43.png)
