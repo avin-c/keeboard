@@ -1,4 +1,6 @@
 ## Journal
+
+Total time spent: 40 hours
 ### August 2 
 (1 hour)
 Planned out my 65% keyboard using excalidraw. Decided to add a rotary encoder in the top left for volume, due to the lack of a function row. The Raspberry Pi Pico is located in the top right to allow for USB-C port on top right corner. 
@@ -198,3 +200,7 @@ Now thinking about it, there is no ledge to support the top middle side of each 
 (0.5 hour) Added finishing touches like my name cutout on the bottom, and exported it for 3d printing. Assembled the knob with the case as well. 
 
 ![Finished case](.\Journal_Photos\image-43.png)
+
+(0.75 hours) Completed BOM with everything, including shipping and accounting for all the currency conversions. Lowkey bom took a lot longer than I thought it would, especially with all the different suppliers and getting everything consolidated into one spreadsheet, but it really helped actually bringing this keyboard into reality. 
+
+![Completed BOM](.\Journal_Photos\image-47.png)
