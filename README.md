@@ -2,10 +2,9 @@
 # Keyz
 My custom 65% mechanical keyboard as part of [Hack Club's Keeb YSWS](https://keeb.hackclub.com/). Hours spent is in the [Journal.md](Journal.md)
 
-
 ## Description
 
-My keyboard "Keyz" is a 65% mechanical keyboard powered by a Raspberry Pi Pico microcontroller. It uses the classic Gateron Quinn switches for a subtle tactile click, and is intended to be minimalistic with a compact layout while also providing the full functionality that an average keyboard user would need. It uses a sandwich mount to house the PCB, and features a rotary encoder to be used as volume control. 
+My keyboard "Keyz" is a 65% mechanical keyboard powered by a Raspberry Pi Pico microcontroller. It uses the classic Gateron Quinn switches for a subtle tactile click, and is intended to be minimalistic with a compact layout while also providing the full functionality that an average keyboard user would need. It uses a sandwich mount to house the PCB, and features a rotary encoder to be used as volume control.
 
 ## Why I made it
 
@@ -41,3 +40,4 @@ Overall, this project was incredibly fun and taught me so much that I hope to ap
 |  | DigiKey Shipping | — | $15.00 | $15.00 | $10.87 | DigiKey |
 |  | AliExpress Shipping | — | $7.34 | $7.34 | $5.32 | AliExpress |
 | **Total** | | | | **$228.85 CAD** | **$165.79 USD** | |
+
