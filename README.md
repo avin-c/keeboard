@@ -1,3 +1,4 @@
+![alt text](.\Photos\Top_Front_View.png)
 # Keyz
 My custom 65% mechanical keyboard as part of [Hack Club's Keeb YSWS](https://keeb.hackclub.com/). 
 
