@@ -1,212 +1,319 @@
-## Journal
+# Journal
 title: https://github.com/avin-c/keeboard
+
 github: https://github.com/avin-c/keeboard
+
 description: My custom 65% percent keyboard with a rotary encoder
+
 created_at: 2026-08-02
 
-# Aug 2: Planning the Keyboard and Designing the PCB
+# Aug 2: Planned out my 65% keyboard using excalidraw
 
-Planned out my 65% keyboard using excalidraw. Decided to add a rotary encoder in the top left for volume, due to the lack of a function row. The Raspberry Pi Pico is located in the top right to allow for USB-C port on top right corner.
-
-Set up KiCad and installed [marbastlib](https\://github.com/ebastler/marbastlib) library. Also created the below matrix for my keyboard to plan where my rows and columns will go, and where each switch will connect to. I ended up with a 16x5 matrix grid, which uses 21 pins and handles 80 keys of which my keyboard uses 70 of.
-
-Designed schematic on KiCad, following my layout in the diagram above. Added the Pico, switches, diodes, stabilizers, and rotary encoder. Arranged each switch-diode set into a matrix following the layout of the matrix above. Then connected each row/column wire to the Pico using net labels. Also connected the Rotary Encoder to the Picousing net labels and GND symbols. Finally, annotated everything using the automatic annotation tool. Also checked that the connections were working with the highlight net label function and confirmed that everything was properly connected.
-
-Assigned footprints to my components. Took a while because I had to find out what kind of footprint the rotary encoder uses, which I learned was a RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm footprint in KiCad. Also had to configure each stabilizer footprint to the correct size, but there were some that were a little smaller: 2.25u instead of my 2.5u so I will see how that works out later.
-
-Started to do the PCB from the schematic. Very very difficult, had to restart several times. I can't seem to get the grid working because of the nonortholinear layout, it doesn't cooperate very well, and I have to manually set every single switch. Anyways, I just finished debugging some minor math error, and I reconfigured the layout becasue 2.5u stabilizers aren't allowed apparently, so I just made the whole keyboard 0.25u wider. Then, I moved everything and readjusted the whole keyboard so now I have finished the top two rows of the keyboard, but only the switches. Hopefully, progress will ramp up soon, because this is getting very tedious.
-
-Finished up the rest of the keyboard switches, and had to make further resizing changes and just lots of adding and subtracting to get the proper locations of each of the switches. Maybe I should've done an ortholinear keyboard instead, haha. Anyways, now it is configured with an additional 0.25u in width as there are no 2.5u stabilizers in the library. So there are some keys with like an extra 0.25u like the right control button, enter key etc..Anyways, this pcb assembly really tested my patience and was much more difficult than I thought it would be. The initial setup was pretty overwhelmed with all the lines connected everywhere but I think I'm slowly getting the hang of it.
-
-**Pictures:**
+Planned out my 65% keyboard using excalidraw. Decided to add a rotary encoder in the top left for volume, due to the lack of a function row. The Raspberry Pi Pico is located in the top right to allow for USB-C port on top right corner. 
 
 ![layout of 65% keyboard with rotary encoder in top left and pico in top right](Journal_Photos/65draft6.png)
 
+**Total time spent: 1 hour**
+
+---
+
+# Aug 2: Set up KiCad and installed marbastlib library
+
+Set up KiCad and installed [marbastlib](https://github.com/ebastler/marbastlib) library. Also created the below matrix for my keyboard to plan where my rows and columns will go, and where each switch will connect to. I ended up with a 16x5 matrix grid, which uses 21 pins and handles 80 keys of which my keyboard uses 70 of. 
+
 ![Keyboard matrix of my keyboard with 16 columns and 5 rows. Each of the 70 switches is highlighted with a red dot](./Journal_Photos/image.png)
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 2: Designed schematic on KiCad, following my layout in
+
+Designed schematic on KiCad, following my layout in the diagram above. Added the Pico, switches, diodes, stabilizers, and rotary encoder. Arranged each switch-diode set into a matrix following the layout of the matrix above. Then connected each row/column wire to the Pico using net labels. Also connected the Rotary Encoder to the Picousing net labels and GND symbols. Finally, annotated everything using the automatic annotation tool. Also checked that the connections were working with the highlight net label function and confirmed that everything was properly connected.
 
 ![Screenshot of my KiCad window with my schematic finished with my switches and diodes in proper positions within the matrix and the matrix rows/columns connected to the Raspberry Pico. Also have the stabilizers off to the side for the footprint and the rotary encorder connected as well to the Pico](./Journal_Photos/image-2.png)
 
+**Total time spent: 1 h 30m**
+
+---
+
+# Aug 2: Assigned footprints to my components
+
+Assigned footprints to my components. Took a while because I had to find out what kind of footprint the rotary encoder uses, which I learned was a RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm footprint in KiCad. Also had to configure each stabilizer footprint to the correct size, but there were some that were a little smaller: 2.25u instead of my 2.5u so I will see how that works out later. 
 ![Screenshot of my footprint assignment popup](./Journal_Photos/image-1.png)
+
+**Total time spent: 30 minutes**
+
+---
+
+# Aug 2: Started to do the PCB from the schematic
+
+Started to do the PCB from the schematic. Very very difficult, had to restart several times. I can't seem to get the grid working because of the nonortholinear layout, it doesn't cooperate very well, and I have to manually set every single switch. Anyways, I just finished debugging some minor math error, and I reconfigured the layout becasue 2.5u stabilizers aren't allowed apparently, so I just made the whole keyboard 0.25u wider. Then, I moved everything and readjusted the whole keyboard so now I have finished the top two rows of the keyboard, but only the switches. Hopefully, progress will ramp up soon, because this is getting very tedious.
 
 ![Two rows of PCB switches done](./Journal_Photos/image-3.png)
 
-![Screenshot of completed keyboard switches located. Lots of lines and pcb stuff. ](./Journal_Photos/image-4.png)
-
-**Total time spent: 6 hours 45 minutes**
+**Total time spent: 1 h 30m**
 
 ---
 
-# Aug 3: Placing Components and Routing the PCB
+# Aug 2: Finished up the rest of the keyboard switches
 
-Woke up bright and early to continue working on this project! I have finished the diode placements, placing each diode on the right edge of the switch, roughly in the middle. I had to fix some rerouting errors leftover from the schematic because the schematic annotation was wrong and that led to the diode naming to be wrong, so I had to fix that up before placing the diodes. Then, I placed the stabilizers on the exact position as the switches. I also placed the rotary encoder in the top left, as I had planned in the original layout. Then, I also resized the PCB edge so that it would fit everything I had placed into it. Overall, it is now looking pretty clean and I am very happy with how it looks, as I move onto the next steps.
+Finished up the rest of the keyboard switches, and had to make further resizing changes and just lots of adding and subtracting to get the proper locations of each of the switches. Maybe I should've done an ortholinear keyboard instead, haha. Anyways, now it is configured with an additional 0.25u in width as there are no 2.5u stabilizers in the library. So there are some keys with like an extra 0.25u like the right control button, enter key etc..Anyways, this pcb assembly really tested my patience and was much more difficult than I thought it would be. The initial setup was pretty overwhelmed with all the lines connected everywhere but I think I'm slowly getting the hang of it. 
 
-Started doing the route tracing, and finished the front copper side. A lot more difficult than I imagined, because my original Pico connections were not very optimized for this, but after rearranging everything I figured out a way to get them placed neatly. Still only finished the front side, as I had to restart once realizing midway through that it wouldn't work, but now I think it is ok. My front copper currently has the rotary encoder connections and the row connections. And I plan on placing the column routes on the back side of the PCB.
+![Screenshot of completed keyboard switches located. Lots of lines and pcb stuff. ](./Journal_Photos/image-4.png)
 
-Finished all the front and back route tracing, with the rotary encoder as well. Started to become pretty intuitive and I started to understand more of how it was connecting back to the schematic. While finishing all the route tracing I also had to rewire some pins and change the board size and Pico positioning to accomodate all the routes, but luckily I managed to get it working. After that, I filled in the front and back copper with ground fill, and now I am at "Unrouted: 0"! Hopefully this means that I am almost done.
+**Total time spent: 1 h 15m**
 
-Completed route traces screenshot:
+---
 
-Completed route traces + ground fill:
+# Aug 3: Woke up bright and early to continue working
 
-Shifted the Pico up a little bit to allow more clearance from the keyset. Completed the DRC testing and fixed everything that needs fixing. Also tested with the 3d model but I was too lazy to put them all down so I just tested one and it seemed fine. Now there should be nothing wrong with any of the connections, only some couple minor warnings, like the silkscreen being clipped off of the board edge. Next step will be exporting the gerber files, which I have done. The compressed zip folder now includes all the gerber and drill files.
-
-Started working on the case, pretty lost in the sauce. I wanted to make a sandwich mount case, so I decided to extrude the bottom plate and start working on the bottom part of the case. And then when I finished that I was wondering where to put the plate, and then I realized that my switches in my imported step file where not on the right height, which meant I had to fix that. So I readjusted the switch height in the footprint editor.
-
-Point where I realized that the switches were wrong (when the switches were so low and there was no place to put a plate):
-
-Fixed 3d model that I can use later for the case making:
-
-Finalized the 3d STEP model of the pcb board. Continued working on the bottom part of the case and decided that I would have a little inset for the plate instead of just being pure sandwich, so that there aren't as many layers visible on the side profile. So the next step is to create the plate, which I am still not sure exactly how to do. Anyways thats all for today.
-
-**Pictures:**
+Woke up bright and early to continue working on this project! I have finished the diode placements, placing each diode on the right edge of the switch, roughly in the middle. I had to fix some rerouting errors leftover from the schematic because the schematic annotation was wrong and that led to the diode naming to be wrong, so I had to fix that up before placing the diodes. Then, I placed the stabilizers on the exact position as the switches. I also placed the rotary encoder in the top left, as I had planned in the original layout. Then, I also resized the PCB edge so that it would fit everything I had placed into it. Overall, it is now looking pretty clean and I am very happy with how it looks, as I move onto the next steps. 
 
 ![Completed PCB footprint placements with diodes, switches, stabilizers, rotary encoders, etc...](./Journal_Photos/image-5.png)
 
+**Total time spent: 1 h 15m**
+
+---
+
+# Aug 3: Started doing the route tracing, and finished the
+
+Started doing the route tracing, and finished the front copper side. A lot more difficult than I imagined, because my original Pico connections were not very optimized for this, but after rearranging everything I figured out a way to get them placed neatly. Still only finished the front side, as I had to restart once realizing midway through that it wouldn't work, but now I think it is ok. My front copper currently has the rotary encoder connections and the row connections. And I plan on placing the column routes on the back side of the PCB. 
+
 ![Finished front (red) copper route tracing on keyboard PCB](./Journal_Photos/image-6.png)
 
-![All route traces completed except for ground which I have hidden in this picture](./Journal_Photos/image-7.png)
+**Total time spent: 1 hour**
 
+---
+
+# Aug 3: Finished all the front and back route tracing
+
+Finished all the front and back route tracing, with the rotary encoder as well. Started to become pretty intuitive and I started to understand more of how it was connecting back to the schematic. While finishing all the route tracing I also had to rewire some pins and change the board size and Pico positioning to accomodate all the routes, but luckily I managed to get it working. After that, I filled in the front and back copper with ground fill, and now I am at "Unrouted: 0"! Hopefully this means that I am almost done. 
+
+Completed route traces screenshot:
+![All route traces completed except for ground which I have hidden in this picture](./Journal_Photos/image-7.png)
+Completed route traces + ground fill:
 ![Front copper PCB with red ground fill with all route traces completed](./Journal_Photos/image-8.png)
 
+**Total time spent: 1 hour**
+
+---
+
+# Aug 3: Shifted the Pico up a little bit to
+
+Shifted the Pico up a little bit to allow more clearance from the keyset. Completed the DRC testing and fixed everything that needs fixing. Also tested with the 3d model but I was too lazy to put them all down so I just tested one and it seemed fine. Now there should be nothing wrong with any of the connections, only some couple minor warnings, like the silkscreen being clipped off of the board edge. Next step will be exporting the gerber files, which I have done. The compressed zip folder now includes all the gerber and drill files.
+
+[Add a picture here]
+
+**Total time spent: 45 minutes**
+
+---
+
+# Aug 3: Started working on the case, pretty lost in
+
+Started working on the case, pretty lost in the sauce. I wanted to make a sandwich mount case, so I decided to extrude the bottom plate and start working on the bottom part of the case. And then when I finished that I was wondering where to put the plate, and then I realized that my switches in my imported step file where not on the right height, which meant I had to fix that. So I readjusted the switch height in the footprint editor. 
+
+Point where I realized that the switches were wrong (when the switches were so low and there was no place to put a plate):
 ![Screenshot of Onshape page with case part studio and pcb assembly](./Journal_Photos/image-9.png)
 
+Fixed 3d model that I can use later for the case making:
 ![Fixed 3d model of pcb with switches repositioned](./Journal_Photos/image-10.png)
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 3: Finalized the 3d STEP model of the pcb
+
+Finalized the 3d STEP model of the pcb board. Continued working on the bottom part of the case and decided that I would have a little inset for the plate instead of just being pure sandwich, so that there aren't as many layers visible on the side profile. So the next step is to create the plate, which I am still not sure exactly how to do. Anyways thats all for today. 
 
 ![Bottom tray case in onshape](./Journal_Photos/image-11.png)
 
-**Total time spent: 6 hours**
+**Total time spent: 1 hour**
 
 ---
 
-# Aug 4: Designing the Switch Plate and Case
+# Aug 4: ) Continued working on the case for the
 
-Continued working on the case for the keyboard, mainly focusing on the plate that seats the switches. Made a cutouts for all of my keys with linear patterns and extruded them so that I have a plate with the 14mm x 14mm cutoutts in the proper positions replicating the PCB layout.
-
-So I thought I had it all figured out with the switches, so I did the rotary encoders, did the USB-c cutout, and even a little cutout of the Pico cuz there were some things sticking out. And then I realized I didn't put in the stabilizers! And I was wondering and wondering how to put the stablizers in because I didnt know anything about them so I asked on Slack and somebody told me that I was doing it all very inefficiently. Apparently there's already websites for making a plate instead of doing the linear pattern yourself, complete with the stabilizers and all. So I did that and was able to make a more accurate plate sketch.
-
-Here is my completed case before I realized that I needed stablizers:
-
-Here is my layout made in keyboard-layout-editor:
-
-Here is the plate I made with my layout and the plate generator website:
-
-Imported the sketch onto the Onshape Part Studio and had enormous difficulties moving it so that it matched with the existing PCB switches. I tried to drag and drop but that made them all circles or something and then I tried to select all and transform sketch but then that also made it all circles. So then finallly I had to extrude it into a 3d object and then use mate connectors to transform it, except it took FOREVER to find a suitable location for the mate connectors, so I eventually just used a corner. Anyways, I now have a plate with all the stabilizers AND switches cut out.
-
-**Pictures:**
+) Continued working on the case for the keyboard, mainly focusing on the plate that seats the switches. Made a cutouts for all of my keys with linear patterns and extruded them so that I have a plate with the 14mm x 14mm cutoutts in the proper positions replicating the PCB layout. 
 
 ![Screenshot of onshape tab with my completed plate and bottom tray](./Journal_Photos/image-12.png)
 
-![Keyboard case and plate](./Journal_Photos/image-14.png)
-
-![Keyboard layout in keyboard-layout-editor](./Journal_Photos/image-13.png)
-
-![Plate outline of my keyboard](./Journal_Photos/image-15.png)
-
-![Plate with both switches and stabilizers cutout in onshape](./Journal_Photos/image-16.png)
-
-**Total time spent: 3 hours**
+**Total time spent: 1 hour**
 
 ---
 
-# Aug 5: Completing the Keyboard Case Design
+# Aug 4: So I thought I had it all figured
 
-Finished the plate and bottom tray, and added a nice cutout for the rotary encoder, Raspberry Pi Pico and USB-C port. Started working on the top case. However, I am struggling to figure out how exactly I wanted to make the top case, as I have no prior experience with it, so I decided to add the keycaps as a reference before I make it. So I am in the process of adding each keycap individually (imported from a GrabCad file of course) but it is a little bit tedious.
+So I thought I had it all figured out with the switches, so I did the rotary encoders, did the USB-c cutout, and even a little cutout of the Pico cuz there were some things sticking out. And then I realized I didn't put in the stabilizers! And I was wondering and wondering how to put the stablizers in because I didnt know anything about them so I asked on Slack and somebody told me that I was doing it all very inefficiently. Apparently there's already websites for making a plate instead of doing the linear pattern yourself, complete with the stabilizers and all. So I did that and was able to make a more accurate plate sketch. 
 
-Update: finished up all the keycaps, now that I have the proper dimensions, I can finally get started on the top part of the case!
+Here is my completed case before I realized that I needed stablizers:
+![Keyboard case and plate](./Journal_Photos/image-14.png)
 
-Finished the top case, which includes a little border around the keycaps, a smaller circular cutout for the volume knob, and a shallow tray to take up the blank space above the top row. However, at this point, the bottom tray, plate, and top case were all the same size, meaning that it would look obvious that there would be 3 layers. So I set the plate smaller and added a wall on the bottom tray so that the plate would fit into the bottom tray, as seen below.
+Here is my layout made in keyboard-layout-editor:
+![Keyboard layout in keyboard-layout-editor](./Journal_Photos/image-13.png)
 
-However, by doing so, the wall was no longer thick enough to contain a full M3 screw and insert. So I had to create this triangular piece rib in all 4 corners to allow space for the boss. I will have to make corner cuts to the PCB later. Anyways, when I finished doing that I added the cylindrical bosses that would allow the top case, plate, and bottom tray to all be screwed together.
+Here is the plate I made with my layout and the plate generator website: 
 
-Refined USB-c port, added padding/legs for better base support, filleted sharp edges, and added a knob for volume control with the rotary encoder.
+![Plate outline of my keyboard](./Journal_Photos/image-15.png)
 
-Feet for the rubber pads to go into
+**Total time spent: 1 hour**
 
-Split the keyboard in half for printing, adding a kinda puzzle/dovetail joint for the plate as it was too thin, and then added some mortise and tenons for the top and bottom parts of the case. Hopefully there won't be a visible seam down the middle.
+---
 
-Finished up some last minute fixes and exported the file to be printed.
+# Aug 4: Imported the sketch onto the Onshape Part Studio
 
-Finished build!
+Imported the sketch onto the Onshape Part Studio and had enormous difficulties moving it so that it matched with the existing PCB switches. I tried to drag and drop but that made them all circles or something and then I tried to select all and transform sketch but then that also made it all circles. So then finallly I had to extrude it into a 3d object and then use mate connectors to transform it, except it took FOREVER to find a suitable location for the mate connectors, so I eventually just used a corner. Anyways, I now have a plate with all the stabilizers AND switches cut out. 
 
-Added chamfers on the PCB corners so that it would fit into the case housing. Then exported the files for final submission
+![Plate with both switches and stabilizers cutout in onshape](./Journal_Photos/image-16.png)
 
-**Pictures:**
+**Total time spent: 1 hour**
+
+---
+
+# Aug 5: Finished the plate and bottom tray, and added
+
+Finished the plate and bottom tray, and added a nice cutout for the rotary encoder, Raspberry Pi Pico and USB-C port. Started working on the top case. However, I am struggling to figure out how exactly I wanted to make the top case, as I have no prior experience with it, so I decided to add the keycaps as a reference before I make it. So I am in the process of adding each keycap individually (imported from a GrabCad file of course) but it is a little bit tedious. 
 
 ![Half completed case with plate completed with cutouts and keycaps half added](./Journal_Photos/image-17.png)
 
+**Total time spent: 2 hours**
+
+---
+
+# Aug 5: Update: finished up all the keycaps, now that
+
+Update: finished up all the keycaps, now that I have the proper dimensions, I can finally get started on the top part of the case!
+
 ![Keyboard assembly with all keycaps added](./Journal_Photos/image-18.png)
 
+**Total time spent: 30 minutes**
+
+---
+
+# Aug 5: Finished the top case, which includes a little
+
+Finished the top case, which includes a little border around the keycaps, a smaller circular cutout for the volume knob, and a shallow tray to take up the blank space above the top row. However, at this point, the bottom tray, plate, and top case were all the same size, meaning that it would look obvious that there would be 3 layers. So I set the plate smaller and added a wall on the bottom tray so that the plate would fit into the bottom tray, as seen below. 
 ![Picture of the plate inset into the tray](./Journal_Photos/image-19.png)
+
+However, by doing so, the wall was no longer thick enough to contain a full M3 screw and insert. So I had to create this triangular piece rib in all 4 corners to allow space for the boss. I will have to make corner cuts to the PCB later. Anyways, when I finished doing that I added the cylindrical bosses that would allow the top case, plate, and bottom tray to all be screwed together. 
 
 ![Picture of the finished keyboard](./Journal_Photos/image-20.png)
 
 ![Another picture of the finished keyboard with all the case parts](./Journal_Photos/image-21.png)
 
+**Total time spent: 1 h 30m**
+
+---
+
+# Aug 5: Refined USB-c port, added padding/legs for better base
+
+Refined USB-c port, added padding/legs for better base support, filleted sharp edges, and added a knob for volume control with the rotary encoder.
 ![Knob](./Journal_Photos/image-26.png)
-
 ![USB-c port refined](./Journal_Photos/image-23.png)
-
+Feet for the rubber pads to go into
 ![Base supports](./Journal_Photos/image-24.png)
-
 ![Current finished render](./Journal_Photos/image-25.png)
 
-![Left half of keyboard](./Journal_Photos/image-27.png)
+**Total time spent: 1 h 30m**
 
+---
+
+# Aug 5: Split the keyboard in half for printing, adding
+
+Split the keyboard in half for printing, adding a kinda puzzle/dovetail joint for the plate as it was too thin, and then added some mortise and tenons for the top and bottom parts of the case. Hopefully there won't be a visible seam down the middle.
+
+![Left half of keyboard](./Journal_Photos/image-27.png)
 ![Right half of keyboard](./Journal_Photos/image-28.png)
+
+**Total time spent: 30 minutes**
+
+---
+
+# Aug 5: Finished up some last minute fixes and exported
+
+Finished up some last minute fixes and exported the file to be printed. 
+
+Finished build!
 
 ![Finished Build](./Journal_Photos/image-29.png)
 
-![PCB with chamfered corners](./Journal_Photos/image-30.png)
-
-**Total time spent: 7 hours**
+**Total time spent: 30 minutes**
 
 ---
 
-# Aug 6: Finalizing the Bill of Materials
+# Aug 5: Added chamfers on the PCB corners so that
 
-Started working on the BOM, adding the diode and rubber pads. Started working on buying the heatset insert, and then realized my bosses were too small for M3 screws. So now I am trying to increase the diameter of my bosses while changing my screw size to M2.5. When buying the screw, I realized that the head is 5mm, which my hole is not big enough for, so I had to expand the part of the hole not threaded by the screw.
+Added chamfers on the PCB corners so that it would fit into the case housing. Then exported the files for final submission
+![PCB with chamfered corners](./Journal_Photos/image-30.png)
 
-Finally finished working on the bill of materials, doing lots of research for the keycaps, stabilizers, switches. Landed on buying the Gateron Quinns after seeing lots of positive reviews, and it matching the medium tactile switch type that I wanted.
+**Total time spent: 30 minutes**
 
-After a lot of review and research, finally settled on the SHOKO PBT Double Shot Keycap Set. HOWEVER, I realized that I didn't even have the right keys, as my keyboard layout is very unique compared to typical keyboards, due to the large size of it all. Anyways, this may result in me having to reconfigure everything, OR I can make new keycaps by 3d printing them but I'm afraid they won't be at a good quality. Anyways thats what I've been working on, a very big problem.
+---
 
-**Pictures:**
+# Aug 6: Started working on the BOM, adding the diode
+
+Started working on the BOM, adding the diode and rubber pads. Started working on buying the heatset insert, and then realized my bosses were too small for M3 screws. So now I am trying to increase the diameter of my bosses while changing my screw size to M2.5. When buying the screw, I realized that the head is 5mm, which my hole is not big enough for, so I had to expand the part of the hole not threaded by the screw. 
 
 ![Screw insert](./Journal_Photos/image-31.png)
 
+**Total time spent: 1 hour**
+
+---
+
+# Aug 6: Finally finished working on the bill of materials
+
+Finally finished working on the bill of materials, doing lots of research for the keycaps, stabilizers, switches. Landed on buying the Gateron Quinns after seeing lots of positive reviews, and it matching the medium tactile switch type that I wanted. 
+
 ![BOM](./Journal_Photos/image-32.png)
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 6: After a lot of review and research, finally
+
+After a lot of review and research, finally settled on the SHOKO PBT Double Shot Keycap Set. HOWEVER, I realized that I didn't even have the right keys, as my keyboard layout is very unique compared to typical keyboards, due to the large size of it all. Anyways, this may result in me having to reconfigure everything, OR I can make new keycaps by 3d printing them but I'm afraid they won't be at a good quality. Anyways thats what I've been working on, a very big problem. 
 
 ![Keycaps](./Journal_Photos/image-33.png)
 
-**Total time spent: 3 hours**
+**Total time spent: 1 hour**
 
 ---
 
-# Aug 8: Revising the Layout for Standard Keycaps
+# Aug 8: So after a day of thinking and consulting
 
-So after a day of thinking and consulting with the printing legion people, I realized that it is not a good option to 3d print my keycaps as they wouldn't match the correct color and I wouldn't be very happy about the final result. So I decided to change my layout in accordance with the keycap set I am buying to a more standardized layout with common keycap sizes for Right Shift, Enter, and Backspace. Ultimately this was just because I wanted a nicer overall keyboard. I think I can add more keys in a future iteration but I think this is a nice compact keyboard now.
-
-Updated the schematic with the new layout, briefly considering to change it to a more expanded layout but ultimately deciding against it. Also updated the schematic with the proper footprints for the newly sized keys.
-
-Updated PCB with new layout after updating it to the schematic, had to layout everything to match the schematic and just the positions of the newly sized keys. However, I discovered a new trick of using a smaller grid, like a 19.05/4 or 19.05/8 grid to easily adjust and fine tune. However in the process of doing so I deleted all the route traces so that I could get a reset and not mess anything up.
-
-**Pictures:**
+So after a day of thinking and consulting with the printing legion people, I realized that it is not a good option to 3d print my keycaps as they wouldn't match the correct color and I wouldn't be very happy about the final result. So I decided to change my layout in accordance with the keycap set I am buying to a more standardized layout with common keycap sizes for Right Shift, Enter, and Backspace. Ultimately this was just because I wanted a nicer overall keyboard. I think I can add more keys in a future iteration but I think this is a nice compact keyboard now. 
 
 ![New layout](./Journal_Photos/image-34.png)
 
-![Updated schematic](./Journal_Photos/image-45.png)
-
-![Updated PCB](./Journal_Photos/image-44.png)
-
-**Total time spent: 3 hours**
+**Total time spent: 1 hour**
 
 ---
 
-# Aug 9: Routing the Revised PCB
+# Aug 8: Updated the schematic with the new layout, briefly
 
-Finished the layout and added the edge cut to the right place because I decided to move the rotary encoder and Pico to the right to save space and make the whole keyboard smaller. Then, I finished routing the columns. However, I thought I was being smart by routing the columns to like the row 3 switch or something like that but when I had to finish routing it, I realized that it conflicted with the rows. So then I had to go back and make sure it was all on the first or second row. Anyways, thats all for today.
+Updated the schematic with the new layout, briefly considering to change it to a more expanded layout but ultimately deciding against it. Also updated the schematic with the proper footprints for the newly sized keys. 
 
-**Pictures:**
+![Updated schematic](./Journal_Photos/image-45.png)
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 8: Updated PCB with new layout after updating it
+
+Updated PCB with new layout after updating it to the schematic, had to layout everything to match the schematic and just the positions of the newly sized keys. However, I discovered a new trick of using a smaller grid, like a 19.05/4 or 19.05/8 grid to easily adjust and fine tune. However in the process of doing so I deleted all the route traces so that I could get a reset and not mess anything up. 
+
+![Updated PCB](./Journal_Photos/image-44.png)
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 9: Finished the layout and added the edge cut
+
+Finished the layout and added the edge cut to the right place because I decided to move the rotary encoder and Pico to the right to save space and make the whole keyboard smaller. Then, I finished routing the columns. However, I thought I was being smart by routing the columns to like the row 3 switch or something like that but when I had to finish routing it, I realized that it conflicted with the rows. So then I had to go back and make sure it was all on the first or second row. Anyways, thats all for today. 
 
 ![Half completed route trace](./Journal_Photos/image-35.png)
 
@@ -214,15 +321,9 @@ Finished the layout and added the edge cut to the right place because I decided 
 
 ---
 
-# Aug 10: Completing the PCB Routing
+# Aug 10: Finished up remaining route traces
 
-Finished up remaining route traces. Added the ground fill for both sides and fixed some errors regarding it that poppped up in the drc concerning the thermal relief spokes which I didnt really understand. Exported the gerber files. I feel like I'm repeating everything cuz I had to do the layout again and then everything basically got reworked so it feels kinda cool cuz I know what I'm doing and I feel like I could do it again without the tutorial.
-
-**---**
-
-**---**
-
-**Pictures:**
+Finished up remaining route traces. Added the ground fill for both sides and fixed some errors regarding it that poppped up in the drc concerning the thermal relief spokes which I didnt really understand. Exported the gerber files. I feel like I'm repeating everything cuz I had to do the layout again and then everything basically got reworked so it feels kinda cool cuz I know what I'm doing and I feel like I could do it again without the tutorial. 
 
 ![Complted PCB](./Journal_Photos/image-36.png)
 
@@ -230,41 +331,33 @@ Finished up remaining route traces. Added the ground fill for both sides and fix
 
 ---
 
-# Aug 11: Rebuilding the Case Around the Updated PCB
+# Aug 11: Inserted new PCB design and layout into Onshape
 
-Inserted new PCB design and layout into Onshape to make the new case. Extruded the layout onto the plate, then added the bottom case. Plate now sits into a ledge on the bottom case, with a .2 mm offset. No ledge on the top side of the keyboard, as I want the USB-C port to be as close to the edge as possible for easy wire connections.
-
-**Pictures:**
+Inserted new PCB design and layout into Onshape to make the new case. Extruded the layout onto the plate, then added the bottom case. Plate now sits into a ledge on the bottom case, with a .2 mm offset. No ledge on the top side of the keyboard, as I want the USB-C port to be as close to the edge as possible for easy wire connections. 
 
 ![Half completed case](./Journal_Photos/image-37.png)
 
-**Total time spent: 1 hour 30 minutes**
+**Total time spent: 1 h 30m**
 
 ---
 
-# Aug 15: Correcting the Case and PCB Alignment
+# Aug 15: Continued working on the case, inserting the part
 
-Continued working on the case, inserting the part studio into assembly and adding the keycaps. Overlayed the case onto the PCB and realized it wasn't accurate. Instead the caps lock key was offset by like 0.25u/2 and the whole pcb was offset by like a little bit, so I had to fix that in the PCB and reset everything on the Onshape file.
+Continued working on the case, inserting the part studio into assembly and adding the keycaps. Overlayed the case onto the PCB and realized it wasn't accurate. Instead the caps lock key was offset by like 0.25u/2 and the whole pcb was offset by like a little bit, so I had to fix that in the PCB and reset everything on the Onshape file. 
 
 Fixed left shift key
-
-Current case
-
-**Pictures:**
-
 ![Fixed left shift key](./Journal_Photos/image-38.png)
 
+Current case
 ![Current case](./Journal_Photos/image-39.png)
 
 **Total time spent: 2 hours**
 
 ---
 
-# Aug 16: Adding Case Details and Mounting Hardware
+# Aug 16: Continued adding details to the case
 
-Continued adding details to the case. Added top part of case with offset of 2mm from keycaps. Added hole for USB-c port and a hole in the top case for the knob of the EC11. Then, I added the holes for the heat set insert for the M2.5 screws. Because of how the PCB is constructed, I can add more screws to add a little more stabilitiy. Then I added some faceblends and fillets to the edges of the case.
-
-**Pictures:**
+Continued adding details to the case. Added top part of case with offset of 2mm from keycaps. Added hole for USB-c port and a hole in the top case for the knob of the EC11. Then, I added the holes for the heat set insert for the M2.5 screws. Because of how the PCB is constructed, I can add more screws to add a little more stabilitiy. Then I added some faceblends and fillets to the edges of the case. 
 
 ![Aug 16 case](./Journal_Photos/image-40.png)
 
@@ -272,32 +365,47 @@ Continued adding details to the case. Added top part of case with offset of 2mm 
 
 ---
 
-# Aug 19: Splitting the Design for 3D Printing
+# Aug 19: Split keyboard in two to allow for 3d
 
-Split keyboard in two to allow for 3d printing, splitting along roughly the middle. For the plate, because it is only 1.5mm thick, I split it along only solid sections, resulting in a segmented line running through the plate. To join the two plates together mechanically, there is a dovetail type puzzle piece thing to connect the two halves. In addition, I added a thicker support for the buttom case on the spacebar side so there is room to support a screw hole.
-
-Speaking of screw holes, there is now 6 screw holes to support each side individually with 3 screws each. As for the the top and bottom casing, they are split in the middle, with a pin and corresponding hole to align and allow for a snap fit with a .2mm offset. Hopefully that's enough.
-
-Now thinking about it, there is no ledge to support the top middle side of each plate, so I will be adding that now.
-
-Took wayyyyyy too long to add more of a ledge to the top side of the bottom case. Initially, I wanted to use the sketch process and extend the sketch farther up, but that created a lot of problems with the dependancies further on. When I fixed those dependances, I realized I had lost a sketch, sketch 4, which removed the supports needed for the screw bosses. So, I reverted back to a previous version and used a different approach, instead opting to extrude the plate further down in the feature list. However, I then had problems dealing with the USB-c port, resulting in lots of splits and booleans. And then I had to reconfigure a lot of sketches, for example, the sketch dividing the plate into two pieces. Alas, I have finally gotten to the final iteration of my keyboard case and I am ready to ship.
-
-Added finishing touches like my name cutout on the bottom, and exported it for 3d printing. Assembled the knob with the case as well.
-
-Completed BOM with everything, including shipping and accounting for all the currency conversions. Lowkey bom took a lot longer than I thought it would, especially with all the different suppliers and getting everything consolidated into one spreadsheet, but it really helped actually bringing this keyboard into reality.
-
-**Pictures:**
-
+Split keyboard in two to allow for 3d printing, splitting along roughly the middle. For the plate, because it is only 1.5mm thick, I split it along only solid sections, resulting in a segmented line running through the plate. To join the two plates together mechanically, there is a dovetail type puzzle piece thing to connect the two halves. In addition, I added a thicker support for the buttom case on the spacebar side so there is room to support a screw hole. 
 ![More room at the spacebar to support screw](./Journal_Photos/image-41.png)
+
+Speaking of screw holes, there is now 6 screw holes to support each side individually with 3 screws each. As for the the top and bottom casing, they are split in the middle, with a pin and corresponding hole to align and allow for a snap fit with a .2mm offset. Hopefully that's enough. 
 
 ![Left side of casing](./Journal_Photos/image-42.png)
 
+Now thinking about it, there is no ledge to support the top middle side of each plate, so I will be adding that now.
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 19: Took wayyyyyy too long to add more of
+
+Took wayyyyyy too long to add more of a ledge to the top side of the bottom case. Initially, I wanted to use the sketch process and extend the sketch farther up, but that created a lot of problems with the dependancies further on. When I fixed those dependances, I realized I had lost a sketch, sketch 4, which removed the supports needed for the screw bosses. So, I reverted back to a previous version and used a different approach, instead opting to extrude the plate further down in the feature list. However, I then had problems dealing with the USB-c port, resulting in lots of splits and booleans. And then I had to reconfigure a lot of sketches, for example, the sketch dividing the plate into two pieces. Alas, I have finally gotten to the final iteration of my keyboard case and I am ready to ship.
+
 ![Final completed case, with the plate going alll the way to the edge](./Journal_Photos/image-46.png)
+
+**Total time spent: 1 hour**
+
+---
+
+# Aug 19: Added finishing touches like my name cutout on
+
+Added finishing touches like my name cutout on the bottom, and exported it for 3d printing. Assembled the knob with the case as well. 
 
 ![Finished case](./Journal_Photos/image-43.png)
 
+**Total time spent: 30 minutes**
+
+---
+
+# Aug 19: Completed BOM with everything, including shipping and accounting
+
+Completed BOM with everything, including shipping and accounting for all the currency conversions. Lowkey bom took a lot longer than I thought it would, especially with all the different suppliers and getting everything consolidated into one spreadsheet, but it really helped actually bringing this keyboard into reality. 
+
 ![Completed BOM](./Journal_Photos/image-47.png)
 
-**Total time spent: 3 hours 15 minutes**
+**Total time spent: 45 minutes**
 
 ---
