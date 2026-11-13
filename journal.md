@@ -403,9 +403,20 @@ Added finishing touches like my name cutout on the bottom, and exported it for 3
 # Aug 19: Completed the BOM with shipping and currency costs
 
 Completed BOM with everything, including shipping and accounting for all the currency conversions. Lowkey bom took a lot longer than I thought it would, especially with all the different suppliers and getting everything consolidated into one spreadsheet, but it really helped actually bringing this keyboard into reality. 
-
+g
 ![Completed BOM](./Journal_Photos/image-47.png)
 
 **Total time spent: 45 minutes**
 
+---
+
+# Nov 12: Redid the keyboard layout 
+
+Decided after two months, that my original keyboard wasn't really that polished, so decided to change it to add some more capabilities so I would be proud of it, and use it in the long run. 
+
+Ended up adding function keys and moving the rotary encoder to the top left, which left space for the Pico in the top right, and should be more functional to use in the long run.  
+
+![keyboard layout](https://cdn.hackclub.com/01a1d30e-8bb5-7329-976b-206d03952c04/paste-1794542307368.png)
+
+**Total time spent: 30 minutes**
 ---
