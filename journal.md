@@ -423,3 +423,7 @@ Just the case itself as a render:
 ![Blender](https://cdn.hackclub.com/01a1fc46-6d82-7a27-b917-ebf361946b82/paste-1795233835004.png)
 Final render:
 ![Blender](https://cdn.hackclub.com/01a1fc48-5381-77db-9e60-f31839a656f1/Keyboard-Small.png)
+
+**Total time spent: 2 hours**
+ 
+ ---
