@@ -1,6 +1,6 @@
-![Keeboard](./Photos/Top_Front_View.png)
+![Keyboard Final Render](https://cdn.hackclub.com/01a1fc4f-e8b8-7b2f-92d8-fe807563cc1f/Keyboard-Small.png)
 # Keyz
-My custom 65% mechanical keyboard as part of [Hack Club's Keeb YSWS](https://keeb.hackclub.com/). Hours spent is in the [Journal.md](Journal.md)
+My custom 65% mechanical keyboard as part of [Hack Club's Keeb/Fabricate YSWS](https://keeb.hackclub.com/).
 
 ## Description
 
