@@ -409,14 +409,17 @@ g
 **Total time spent: 45 minutes**
 
 ---
+# Nov 19: Fixed CAD and rendered 
 
-# Nov 12: Redid the keyboard layout 
+Realized the CAD was a little bit messy, so I fixed the case so that the keyboard would be angled upwards by 6 degrees at a nice tilt for easier typing, which provided more space for the joints that lock the two sides together. Also updated the case so that the top portion would have space to connect to the bottom part. Then, with that updated, I rendered the model in Blender, for a nice opening photo in the README. 
 
-Decided after two months, that my original keyboard wasn't really that polished, so decided to change it to add some more capabilities so I would be proud of it, and use it in the long run. 
+For the firmware, I also started up on installing Rust, and some other required things to be able to get started on writing the actual firmware itself. 
 
-Ended up adding function keys and moving the rotary encoder to the top left, which left space for the Pico in the top right, and should be more functional to use in the long run.  
-
-![keyboard layout](https://cdn.hackclub.com/01a1d30e-8bb5-7329-976b-206d03952c04/paste-1794542307368.png)
-
-**Total time spent: 30 minutes**
----
+Updated CAD case with a little bit of tilt and more polsih: 
+![Onshape](https://cdn.hackclub.com/01a1fc47-4680-7399-a386-5ce750410cf0/paste-1795233891133.png) 
+Full case including all the keys:
+![Blender](https://cdn.hackclub.com/01a1fc46-f959-766c-920e-e8a5fce58bf4/paste-1795233870139.png) 
+Just the case itself as a render: 
+![Blender](https://cdn.hackclub.com/01a1fc46-6d82-7a27-b917-ebf361946b82/paste-1795233835004.png)
+Final render:
+![Blender](https://cdn.hackclub.com/01a1fc48-5381-77db-9e60-f31839a656f1/Keyboard-Small.png)
