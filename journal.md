@@ -427,3 +427,16 @@ Final render:
 **Total time spent: 2 hours**
  
  ---
+
+# Nov 22: Wrote firmware 
+
+After setting it up a couple days ago, I actually started to write the firmware. Following the [Local Compilation Guide](https://rmk.rs/docs/user_guide/create_firmware/local_compilation), I was able to intialize a project within the keyboard project already existing in my folders. 
+
+The bulk of my time was spent in the "Edit keyboard.toml" step, where I layed out my keyboard switches, and assigned keys to the map. I was pretty satsified with the way that I layed the keys out, especially because getting full functionality out of my 65% keyboard was pretty important to me. This was a pretty tedious process though, as every matrix and map had to be entered manually. I'm glad that this is not permanant however, because there are many more keys that I learnt existed through this process that I may want to add to my keyboard further down the line. After compiling everything, a UF2 file was produced. 
+
+My keyboard.toml file 
+![Keyboard.toml](https://cdn.hackclub.com/01a20596-11cb-72c8-a1f7-83325e965d76/paste-1795390048772.png)
+
+**Total time spent: 2 hours**
+
+---
