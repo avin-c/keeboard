@@ -1,0 +1,16 @@
+Category ,Item ,Description,Quantity ,Unit Cost (CAD),Total Cost (CAD),Total Cost (USD),Supplier ,Link
+Electronics,EC11 Rotary Encoder,Rotary Encoder for Volume Knob,1,$4.44,$4.44,$3.10,DigiKey,https://www.digikey.ca/en/products/detail/bourns-inc/PEC11R-4215K-S0024/4499662
+,1N4148 Diode,"Diodes for keyboard matrix switches (buying more cuz I have never soldered before and want some extra just in case, plus 80 diodes is still $5.02)",100,$0.54,$5.43,$3.79,DigiKey,https://www.digikey.ca/short/thzf78m3
+,Raspberry Pi Pico,Microcontroller + Headers ,1,$3.49,$3.49,$2.43,AliExpress,https://www.aliexpress.com/item/1005007104120926.html?spm=a2g0o.productlist.main.34.47a82bfaq7DELF&algo_pvid=653315cc-9c90-48bc-a04e-71da47ab6d95&algo_exp_id=653315cc-9c90-48bc-a04e-71da47ab6d95-33&pdp_ext_f=%7B%22order%22%3A%22200%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%212.86%212.60%21%21%211.95%211.77%21%402103119c17953913443523376e0ded%2112000060141469627%21sea%21CA%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A1f626043%3Bm03_new_user%3A-29895&curPageLogUid=KT9nUjeE4Isk&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007104120926%7C_p_origin_prod%3A
+PCB,PCB,,5,$5.74,$28.70,$20.02,JLCPCB,
+Case accessories,M2.5 Heatset Insert,Heatset inserts for screws clamping case,6,$0.29,$1.74,$1.21,DigiKey,https://www.digikey.ca/short/qzncdpv7
+,M2.5 Screw,6mm long,6,$0.18,$1.10,$0.77,DigiKey,https://www.digikey.ca/short/h5w2dz84
+Keyboard,Gateron Chocolate Smoothie,Tactile Switches (set of 70),1,$37.15,$37.15,$25.91,Amazon,https://www.amazon.ca/Chocolate-Smoothie-Mechanical-Switches%EF%BC%8CRGB-Pre-lubed/dp/B0FQHZD596/ref=sr_1_1?crid=397J4S41NR64U&dib=eyJ2IjoiMSJ9.Cy-_Mr2R7XZu4KMBmi_uWqCgAH6pZblt5V30b5XUiIuk9vr0bAivJduGvZv7gwhi.Hn8iyTr6A1GXxye671Mf9OggYSHL2UN9ednbuWPYzHE&dib_tag=se&keywords=gateron%2Bchocolate%2Bsmoothie&qid=1795392544&sprefix=gateron%2Bchocolate%2Bsmoothi%2Caps%2C195&sr=8-1&th=1
+,MX Stabilizers,4*2u + 1*6.25u,1,$12.39,$12.39,$8.64,AliExpress,https://www.aliexpress.com/item/1005011961905061.html?pdp_ext_f=%7B%22order%22%3A%224%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D
+,Keycaps,With a Cherry profile,1,$33.89,$33.89,$23.64,Amazon,https://www.amazon.ca/KBDiy-Keycaps-Percent-Mechanical-Keyboard/dp/B0CT5C2B8F/ref=sr_1_12?crid=1G9HY1UQNN4EB&dib=eyJ2IjoiMSJ9.clPrYS9Mkyt7Ng5yimc05HMOhgR_GEZWlov_hXIkV9-_h0WDo9gYInM0Yk9tMJwczcDFMajBQryI1t6EV9p5ITevjSiprSjUviSEQx3G5hNPEWnSzGRGL956B40tmiqJm-n2AawS38tOLG-GFsVDaeSjmj9awOJeDdH045WScT0GTN6IsGh-ItvRhL_881FHrDxEOcqkqGO3Dg4sBr-J1XczmzxubBDGn-RJNlNZkypSSrn-67t4XAXXBuu6ufBuBYeUX3MqzMp8gpuCwUrFE91R8SOQ8tcxfq_Ag4yXTtg.RBzHkodv9L72tgKA8IOQ7Xk_Ys0xNDpOGra9LuzEhMY&dib_tag=se&keywords=blue%2Bkeycap%2Bset&qid=1786037838&s=electronics&sprefix=blue%2Bkeycap%2Bset%2Celectronics%2C122&sr=1-12&th=1
+Shipping,JLCPCB Shipping,Global Standard Direct Line ,,$21.44,$21.44,$14.95,JLCPCB,
+,DigiKey Shipping,,,$15.00,$15.00,$10.46,DigiKey,
+,AliExpress Shipping,,,$9.03,$9.03,$6.30,Aliexpress,
+,,,,,,,,
+,,,,Subtotal,$173.80,$121.22,,
+,,,,Total,$196.39,$136.98,,
