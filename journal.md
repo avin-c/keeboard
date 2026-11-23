@@ -440,3 +440,13 @@ My keyboard.toml file
 **Total time spent: 2 hours**
 
 ---
+
+# Nov 22: Edited BOM
+
+Because the BOM exceeded Fabricate's 125 dollar limit, I removed the rubber pads, chose a most cost effective switch (the Gateron Chocolate Smoothie), changed my raspberry pi to a aliexpress clone, and changed the pcb shipping to global direct, so that the subtotal would be less than 125. 
+
+![BOM](https://cdn.hackclub.com/01a205c4-db57-7f2a-a1d8-851c2320a451/paste-1795393114733.png)
+
+**Total time spent: 45 min**
+
+---

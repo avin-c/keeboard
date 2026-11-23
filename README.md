@@ -24,20 +24,16 @@ Overall, this project was incredibly fun and taught me so much that I hope to ap
 
 | Category | Item | Quantity | Unit Cost (CAD) | Total Cost (CAD) | Total Cost (USD) | Supplier |
 |---|---|---:|---:|---:|---:|---|
-| Electronics | EC11 Rotary Encoder | 1 | $4.44 | $4.44 | $3.22 | [DigiKey](https://www.digikey.ca/en/products/detail/bourns-inc/PEC11R-4215K-S0024/4499662) |
-|  | 1N4148 Diode | 100 | $0.54 | $5.43 | $3.93 | [DigiKey](https://www.digikey.ca/short/thzf78m3) |
-|  | Raspberry Pi Pico | 1 | $5.65 | $5.65 | $4.09 | [Pishop](https://www.pishop.ca/product/raspberry-pi-pico-non-wireless/?src=raspberrypi) |
-|  | Header Set | 1 | $2.45 | $2.45 | $1.77 | [Pishop](https://www.pishop.ca/product/raspberry-pi-pico-header-set/) |
-| PCB | PCB | 5 | $5.74 | $28.70 | $20.79 | JLCPCB |
-| Case accessories | M2.5 Heatset Insert | 6 | $0.29 | $1.74 | $1.26 | [DigiKey](https://www.digikey.ca/short/qzncdpv7) |
-|   | M2.5 Screw | 6 | $0.18 | $1.10 | $0.80 | [DigiKey](https://www.digikey.ca/short/h5w2dz84) |
-|   | Rubber Pads | 10 | $0.42 | $4.20 | $3.04 | [AliExpress](https://www.aliexpress.com/item/1005009215190070.html) |
-| Keyboard | Gateron Quinn Switches | 2 | $25.92 | $51.84 | $37.56 | [Best Buy](https://www.bestbuy.ca/en-ca/product/gateron-quinn-keyboard-switches-tactile-59gf-rgb-5-pin-pre-lubed-for-mx-mechanical-gaming-keyboard-35pcs/19677735) |
-|  | MX Stabilizers | 1 | $12.39 | $12.39 | $8.98 | [AliExpress](https://www.aliexpress.com/item/1005011961905061.html?pdp_ext_f=%7B%22order%22%3A%224%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D) |
-|  | Keycaps | 1 | $33.89 | $33.89 | $24.55 | [Amazon](https://www.amazon.ca/KBDiy-Keycaps-Percent-Mechanical-Keyboard/dp/B0CT5C2B8F/ref=sr_1_12?crid=1G9HY1UQNN4EB&dib=eyJ2IjoiMSJ9.clPrYS9Mkyt7Ng5yimc05HMOhgR_GEZWlov_hXIkV9-_h0WDo9gYInM0Yk9tMJwczcDFMajBQryI1t6EV9p5ITevjSiprSjUviSEQx3G5hNPEWnSzGRGL956B40tmiqJm-n2AawS38tOLG-GFsVDaeSjmj9awOJeDdH045WScT0GTN6IsGh-ItvRhL_881FHrDxEOcqkqGO3Dg4sBr-J1XczmzxubBDGn-RJNlNZkypSSrn-67t4XAXXBuu6ufBuBYeUX3MqzMp8gpuCwUrFE91R8SOQ8tcxfq_Ag4yXTtg.RBzHkodv9L72tgKA8IOQ7Xk_Ys0xNDpOGra9LuzEhMY&dib_tag=se&keywords=blue%2Bkeycap%2Bset&qid=1786037838&s=electronics&sprefix=blue%2Bkeycap%2Bset%2Celectronics%2C122&sr=1-12&th=1) |
-| Shipping | Pishop Shipping | — | $13.01 | $13.01 | $9.43 | Pishop |
-|  | JLCPCB Shipping | — | $41.67 | $41.67 | $30.19 | JLCPCB |
-|  | DigiKey Shipping | — | $15.00 | $15.00 | $10.87 | DigiKey |
-|  | AliExpress Shipping | — | $7.34 | $7.34 | $5.32 | AliExpress |
-| **Total** | | | | **$228.85 CAD** | **$165.79 USD** | |
-
+| Electronics | EC11 Rotary Encoder | 1 | $4.44 | $4.44 | $3.10 | [DigiKey](https://www.digikey.ca/en/products/detail/bourns-inc/PEC11R-4215K-S0024/4499662) |
+|  | 1N4148 Diode | 100 | $0.54 | $5.43 | $3.79 | [DigiKey](https://www.digikey.ca/short/thzf78m3) |
+|  | Raspberry Pi Pico | 1 | $3.49 | $3.49 | $2.43 | [AliExpress](https://www.aliexpress.com/item/1005007104120926.html) |
+| PCB | PCB | 5 | $5.74 | $28.70 | $20.02 | JLCPCB |
+| Case accessories | M2.5 Heatset Insert | 6 | $0.29 | $1.74 | $1.21 | [DigiKey](https://www.digikey.ca/short/qzncdpv7) |
+|  | M2.5 Screw | 6 | $0.18 | $1.10 | $0.77 | [DigiKey](https://www.digikey.ca/short/h5w2dz84) |
+| Keyboard | Gateron Chocolate Smoothie | 1 | $37.15 | $37.15 | $25.91 | [Amazon](https://www.amazon.ca/Chocolate-Smoothie-Mechanical-Switches%EF%BC%8CRGB-Pre-lubed/dp/B0FQHZD596) |
+|  | MX Stabilizers | 1 | $12.39 | $12.39 | $8.64 | [AliExpress](https://www.aliexpress.com/item/1005011961905061.html) |
+|  | Keycaps | 1 | $33.89 | $33.89 | $23.64 | [Amazon](https://www.amazon.ca/KBDiy-Keycaps-Percent-Mechanical-Keyboard/dp/B0CT5C2B8F) |
+| Shipping | JLCPCB Shipping | — | $21.44 | $21.44 | $14.95 | JLCPCB |
+|  | DigiKey Shipping | — | $15.00 | $15.00 | $10.46 | DigiKey |
+|  | AliExpress Shipping | — | $9.03 | $9.03 | $6.30 | AliExpress |
+| **Subtotal** | | | | **$173.80 CAD** | **$121.22 USD** | |
