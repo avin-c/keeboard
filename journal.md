@@ -103,8 +103,7 @@ Completed route traces + ground fill:
 
 Shifted the Pico up a little bit to allow more clearance from the keyset. Completed the DRC testing and fixed everything that needs fixing. Also tested with the 3d model but I was too lazy to put them all down so I just tested one and it seemed fine. Now there should be nothing wrong with any of the connections, only some couple minor warnings, like the silkscreen being clipped off of the board edge. Next step will be exporting the gerber files, which I have done. The compressed zip folder now includes all the gerber and drill files.
 
-[Add a picture here]
-
+![Image](https://cdn.hackclub.com/01a205d4-ed89-7bdc-9b72-40367d4f1811/paste-1795394167885.png)
 **Total time spent: 45 minutes**
 
 ---
@@ -222,7 +221,7 @@ Feet for the rubber pads to go into
 # Aug 5: Split the case and plate for 3D printing
 
 Split the keyboard in half for printing, adding a kinda puzzle/dovetail joint for the plate as it was too thin, and then added some mortise and tenons for the top and bottom parts of the case. Hopefully there won't be a visible seam down the middle.
-
+F
 ![Left half of keyboard](./Journal_Photos/image-27.png)
 ![Right half of keyboard](./Journal_Photos/image-28.png)
 
